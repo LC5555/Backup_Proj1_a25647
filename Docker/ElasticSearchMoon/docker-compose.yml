@@ -1,0 +1,46 @@
+version: "3.8"
+services:
+  
+  elastic_search:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.16.1
+    container_name: elastic_search_moon
+    restart: always
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    networks:
+      - es-network
+  
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.16.1
+    container_name: kibana_moon
+    restart: always
+    ports:
+      - "5601:5601"
+    networks:
+      - es-network
+    environment:
+      ELASTICSEARCH_URL: http://elastic_search:9200
+      ELASTICSEARCH_HOSTS: http://elastic_search:9200
+    depends_on:
+      - elastic_search
+
+volumes:
+  es_data:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: 'C:\Users\luisc\Desktop\IPT\2Semestre\BigData\Proj I\Docker\ElasticSearchMoon'
+
+networks:
+  es-network:
+    driver: bridge
