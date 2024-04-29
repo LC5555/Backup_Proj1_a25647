@@ -1,0 +1,106 @@
+{
+    "timestamp": 1713834824,
+    "datestamp": "Tue, 23 Apr 2024 03:13:44 +0200",
+    "sun": {
+        "sunrise": 1713848220,
+        "sunrise_timestamp": "06:57",
+        "sunset": 1713896700,
+        "sunset_timestamp": "20:25",
+        "solar_noon": "13:41",
+        "day_length": "13:28",
+        "sun_altitude": -33.77415012200821,
+        "sun_distance": 150306047.1166107,
+        "sun_azimuth": 328.2368262567014,
+        "next_solar_eclipse": {
+            "timestamp": 1727887573,
+            "datestamp": "Wed, 02 Oct 2024 18:46:13 +0200",
+            "type": "Annular Solar Eclipse",
+            "visibility_regions": "Pacific, s South America ; [Annular: s Chile, s Argentina]"
+        }
+    },
+    "moon": {
+        "phase": 0.4684403883293181,
+        "phase_name": "Waxing Gibbous",
+        "stage": "waxing",
+        "illumination": "99%",
+        "age_days": 15,
+        "lunar_cycle": "46.84%",
+        "emoji": "\ud83c\udf14",
+        "zodiac": {
+            "sun_sign": "Taurus",
+            "moon_sign": "Libra"
+        },
+        "moonrise": "19:16",
+        "moonrise_timestamp": 1713892560,
+        "moonset": "06:12",
+        "moonset_timestamp": 1713845520,
+        "moon_altitude": 40.78285239649884,
+        "moon_distance": 402105.1829063863,
+        "moon_azimuth": 159.1530985175233,
+        "moon_parallactic_angle": -16.56449134784747,
+        "next_lunar_eclipse": {
+            "timestamp": 1726620326,
+            "datestamp": "Wed, 18 Sep 2024 02:45:26 +0200",
+            "type": "Partial Lunar Eclipse",
+            "visibility_regions": "Americas, Europe, Africa"
+        }
+    },
+    "moon_phases": {
+        "new_moon": {
+            "last": {
+                "timestamp": 1712527200,
+                "datestamp": "Mon, 08 Apr 2024 00:00:00 +0200",
+                "days_ago": 15
+            },
+            "next": {
+                "timestamp": 1715119200,
+                "datestamp": "Wed, 08 May 2024 00:00:00 +0200",
+                "days_ahead": 14
+            }
+        },
+        "first_quarter": {
+            "last": {
+                "timestamp": 1713132000,
+                "datestamp": "Mon, 15 Apr 2024 00:00:00 +0200",
+                "days_ago": 8
+            },
+            "next": {
+                "timestamp": 1715724000,
+                "datestamp": "Wed, 15 May 2024 00:00:00 +0200",
+                "days_ahead": 21
+            }
+        },
+        "full_moon": {
+            "last": {
+                "timestamp": 1711321200,
+                "datestamp": "Mon, 25 Mar 2024 00:00:00 +0100",
+                "days_ago": 29,
+                "name": "Worm Moon",
+                "description": "Indicates the return of earthworms and the beginning of spring."
+            },
+            "next": {
+                "timestamp": 1713909600,
+                "datestamp": "Wed, 24 Apr 2024 00:00:00 +0200",
+                "days_ahead": 0,
+                "name": "Pink Moon",
+                "description": "Named after the pink flowers (wild ground phlox) that bloom in this month."
+            }
+        },
+        "last_quarter": {
+            "last": {
+                "timestamp": 1712008800,
+                "datestamp": "Tue, 02 Apr 2024 00:00:00 +0200",
+                "days_ago": 21
+            },
+            "next": {
+                "timestamp": 1714514400,
+                "datestamp": "Wed, 01 May 2024 00:00:00 +0200",
+                "days_ahead": 7
+            }
+        }
+    },
+    "location": {
+        "latitude": 37.7412,
+        "longitude": -25.6756
+    }
+}
