@@ -1,0 +1,1274 @@
+[
+    {
+        "title": "Associate PCR-RFLP Assay Design With SNPs Based on Genetic Algorithm in Appropriate Parameters Estimation",
+        "authors": [
+            "Li-Yeh Chuang",
+            "Yu-Huei Cheng",
+            "Member",
+            "IEEE",
+            "Cheng-Huei Yang",
+            "Cheng-Hong Yang*",
+            "Senior Member",
+            "IEEE"
+        ],
+        "abstract": "Polymerase\n\nchain reaction-restriction fragment\nlength polymorphism (PCR-RFLP) is a commonly used labora-\ntory technique and useful in small-scale basic research studies\nof complex genetic diseases that are associated with single nu-\ncleotide polymorphisms (SNPs). Before PCR-RFLP assay for SNP\ngenotyping can be performed, a feasible primer pair observes\nnumerous constraints and an available restriction enzyme for\ndiscriminating a target SNP, are required. The computation\nof feasible PCR-RFLP primers and ﬁnd available restriction\nenzymes simultaneously aim at a target SNP is a challenging\nproblem. Here, we propose an available method which combines\nthe updated core of SNP-RFLPing with a genetic algorithm to\nreliably mine available restriction enzymes and search for feasible\nPCR-RFLP primers. We have in silico simulated the method in the\nSLC6A4 gene under different parameter settings and provided\nan appropriate parameter setting. The wet laboratory validation\nshowed that it indeed usable in providing the available restric-\ntion enzymes and designing feasible primers that ﬁt the common\nprimer constraints. We have provided an easy and kindly interface\nto assist the researchers designing their PCR-RFLP assay for SNP\ngenotyping. The program is implemented in JAVA and is freely\navailable at http://bio.kuas.edu.tw/ganpd/.",
+        "index_terms": [
+            "Genetic algorithm (GA)",
+            "genotyping",
+            "polymerase chain reaction-restriction fragment length polymorphism (PCR- RFLP)",
+            "primer design",
+            "single nucleotide polymorphisms (SNPs)"
+        ]
+    },
+    {
+        "title": "Automatic Indexing of Underwater Survey Video: Algorithm and Benchmarking Method",
+        "authors": [
+            "Katia Lebart",
+            "Chris Smith",
+            "Emanuele Trucco",
+            "David M. Lane"
+        ],
+        "abstract": "It is often the case that only a few sparse sequences\nof long videos from scientific underwater surveys actually contain\nimportant information for the expert. Locating such sequences is\ntime consuming and tedious. A system that automatically detects\nthose critical parts, online or during post-mission tape analysis,\nwould alleviate the expert workload and improve data exploita-\ntion. In this paper, a methodology for evaluating the performance\nof such a system on real data is presented. Interesting sequences\nare started by changes of visual context. An algorithm to detect\nsignificant context changes in benthic videos in real time has been\npresented by Lebart et al. in 2000. It is used as an illustration for\nthis methodology—its performance is studied and benchmarked\non real underwater data, ground truthed by an expert biologist.\nVarious issues relating to the complexity of the problems of auto-\nmatically analyzing underwater video are also discussed.",
+        "index_terms": [
+            "Change detection",
+            "image analysis",
+            "indexing",
+            "light compensation",
+            "online image processing",
+            "underwater",
+            "unsupervised clustering",
+            "video"
+        ]
+    },
+    {
+        "title": "Autonomous Decision-Making With Incomplete Information and Safety Rules Based on Non-Monotonic Reasoning",
+        "authors": [
+            "José-Luis Vilchis-Medina",
+            "Karen Godary-Déjean",
+            "Charles Lesire"
+        ],
+        "abstract": "In this article we propose a decision process integrat-\ning Non-Monotonic Reasoning (NMR), embedded in a deliberative\narchitecture. The NMR process uses Default Logic to implement\ngoal reasoning, managing partially observable or incomplete in-\nformation, allowing the design of default behaviours completed by\nthe handling of speciﬁc situations, in order to manage the current\nmission objective as well as safety rules. We illustrate our approach\nthrough an application of an underwater robot performing a ma-\nrine biology mission.",
+        "index_terms": [
+            "AI-based methods",
+            "formal methods in robotics and automation",
+            "cognitive control architectures",
+            "marine robotics"
+        ]
+    },
+    {
+        "title": "A Machine-Learning Model for Forecasting Internal Wave Propagation in the Andaman Sea",
+        "authors": [
+            "Xudong Zhang",
+            "Member",
+            "IEEE",
+            "Xiaofeng Li",
+            "Fellow",
+            "IEEE",
+            "Quanan Zheng"
+        ],
+        "abstract": "Internal waves (IWs) are broadly distributed globally\nand have signiﬁcant impacts on offshore engineering and underwa-\nter navigation. The prediction of IW propagation is a challenging\ntask because of the complex factors involved. In this study, a\nmachine-learning model was developed to predict IW propagation\nin the Andaman Sea. The model is based on a back-propagation\nneural network trained by 1189 IW samples, including the crest\nlength and the peak-to-peak distance of IWs, extracted from 123\nModerate-Resolution Imaging Spectroradiometer (MODIS) im-\nages and 33 Ocean Land Color Instrument (OLCI) images acquired\nfrom 2015 to 2019 and corresponding ocean environment parame-\nters. Using the leading wave crest within an IW packet as input, we\nran the model to forecast the IW locations and compare them with\nsatellite observations. The average root-mean-square difference\nbetween the model-forecasted and satellite-observed IW leading\ncrest after one tidal cycle was 3.21 km. The corresponding averaged\ncorrelation coefﬁcient was 0.95 and the average Fréchet Distance\nwas 11.46 km. We reiterated the model run over two tidal periods\nand obtained similar statistical results, indicating the robustness of\nforecasting IW packets. We ﬁnd that reducing the time step helped\nto improve forecasting accuracy. The inﬂuence of input errors and\nseasonal variations on model results are discussed and an analysis\nshows that the initial propagation direction introduced to the model\nis necessary for cross-propagating IW patterns. Comparisons with\nthe Korteweg-de Vries equation results show that the developed\nmodel has better performance and is more robust.",
+        "index_terms": [
+            "Andaman sea,  internal wave (IW)  forecast,  machine learning"
+        ]
+    },
+    {
+        "title": "A Methodology for Consistent Georegistration in Underwater Hyperspectral Imaging",
+        "authors": [
+            "Håvard Snefjellå Løvås",
+            "Aksel Alstad Mogstad",
+            "Asgeir J. Sørensen",
+            "Senior Member",
+            "IEEE",
+            "Geir Johnsen"
+        ],
+        "abstract": "This article proposes a novel methodology for precise\ngeoregistration in underwater hyperspectral imaging (UHI) using\na red–green–blue (RGB) camera to build a photogrammetry model\nthat estimates the pose and a 3-D seabed model. The two main scien-\ntiﬁc contributions are: 1) the development of two methods for geo-\nmetric calibration of the hyperspectral imager (HSI) with the RGB\ncamera and 2) the development of a methodology for consistent geo-\nregistration of the pushbroom hyperspectral imagery on the seabed\nusing the photogrammetry model and the geometrically calibrated\nHSI. The georegistration uses a calibrated RGB camera, ﬁxed to the\nHSI, with an overlapping ﬁeld of view. The RGB images are used\nto build a photogrammetry model. Through utilizing the geometric\nHSI parameters from the calibration, the hyperspectral imagery is\nray cast onto the 3-D model. This methodology is exempliﬁed for\nUHI from a remotely operated vehicle on a cold-water coral reef\nin the Trondheim Fjord, Norway. The precision is unprecedented\nfor georegistration in UHI, demonstrated by the ﬁrst-ever spatially\nconsistent UHI mosaic to contain multiple transects.",
+        "index_terms": [
+            "Mapping and monitoring",
+            "photogrammetry,  underwater hyperspectral imaging (UHI)"
+        ]
+    },
+    {
+        "title": "A Regional Assessment of OLCI Data Products",
+        "authors": [
+            "Giuseppe Zibordi",
+            "Frédéric Mélin",
+            "Jean-François Berthon"
+        ],
+        "abstract": "This letter summarizes a regional assessment of\nradiometric data products from the Ocean and Land Colour\nInstrument operated onboard Sentinel-3A. The assessment is\nsupported by in situ reference measurements from the Ocean\nColour component of the Aerosol Robotic Network and the\nBio-optical mapping of Marine Properties Program. Results\nindicate a systematic underestimate of the water-leaving radiance\nat the blue and red spectral bands. Conversely, the aerosol\noptical depth at 865 nm exhibits overestimate, while the Ångström\nexponent shows a narrow distribution of values conﬁned below a\nmaximum of approximately 1.7. These ﬁndings suggest difﬁculty\nin separating water and atmospheric radiance contributions,\nwhich results in a poor determination of aerosol load and type\nand, consequently, an overestimate of atmospheric effects.",
+        "index_terms": [
+            "Ocean colour",
+            "remote sensing",
+            "validation"
+        ]
+    },
+    {
+        "title": "Beyond NeRF Underwater: Learning Neural Reﬂectance Fields for True Color Correction of Marine Imagery",
+        "authors": [
+            "Tianyi Zhang",
+            "Graduate Student Member",
+            "IEEE",
+            "Matthew Johnson-Roberson",
+            "Member",
+            "IEEE"
+        ],
+        "abstract": "Underwater imagery often exhibits distorted col-\noration as a result of light-water interactions, which complicates the\nstudy of benthic environments in marine biology and geography.\nIn this research, we propose an algorithm to restore the true color\n(albedo) in underwater imagery by jointly learning the effects of the\nmedium and neural scene representations. Our approach models\nwater effects as a combination of light attenuation with distance\nand backscattered light. The proposed neural scene representation\nis based on a neural reﬂectance ﬁeld model, which learns albedos,\nnormals, and volume densities of the underwater environment.\nWe introduce a logistic regression model to separate water from\nthe scene and apply distinct light physics during training. Our\nmethod avoids the need to estimate complex backscatter effects in\nwater by employing several approximations, enhancing sampling\nefﬁciency and numerical stability during training. The proposed\ntechnique integrates underwater light effects into a volume ren-\ndering framework with end-to-end differentiability. Experimental\nresults on both synthetic and real-world data demonstrate that our\nmethod effectively restores true color from underwater imagery,\noutperforming existing approaches in terms of color consistency.",
+        "index_terms": [
+            "Deep learning for visual perception",
+            "marine  robotics",
+            "representation learning"
+        ]
+    },
+    {
+        "title": "Binary Plankton Image Classiﬁcation",
+        "authors": [
+            "Xiaoou Tang",
+            "Senior Member",
+            "IEEE",
+            "Feng Lin",
+            "Scott Samson",
+            "Andrew Remsen"
+        ],
+        "abstract": "In marine biology study, it is important to inves-\ntigate the distribution of plankton organisms. Because of the\noverwhelming data size, automatic processing of the large amount\nof image data collected by underwater image recorders becomes\ninevitable. However, due to the fragmentation and the large\nwithin-class variations of binary plankton images, it is difﬁcult to\nextract reliable shape features. In this paper, we propose several\nnew shape descriptors and use a normalized multilevel dominant\neigenvector estimation method to select a best feature set for\nbinary plankton image classiﬁcation. We achieve more than 91%\nclassiﬁcation accuracy in experiments on more than 3000 images.",
+        "index_terms": [
+            "Binary plankton images,  feature extraction, principal component analysis (PCA)",
+            "two-dimensional (2-D) shape recognition"
+        ]
+    },
+    {
+        "title": "Bioinspiring an Interest in STEM",
+        "authors": [
+            "Jeffrey Laut",
+            "Student Member",
+            "IEEE",
+            "Tiziana Bartolini",
+            "Maurizio Porﬁri",
+            "Senior Member",
+            "IEEE"
+        ],
+        "abstract": "Attracting K–12 students to pursue careers in science,\ntechnology, engineering, and mathematics (STEM) is viewed as a\ncritical element for beneﬁting both the economy and society. This\npaper describes an outreach program, conducted in a Brooklyn,\nNY, USA, public middle school, aimed at educating students\nin mechatronics, biology, and bioinspiration. The program is\ndesigned to foster student interest in STEM subjects, especially\nengineering-related concepts, by actively demonstrating their\napplication in solving tangible real-world problems. It consists of\na series of lectures and practical activities that culminate with a\nhands-on bioinspiration-based event at the New York Aquarium.\nSurvey results show that students who participated in the program\nhave a better understanding of the relationship between engi-\nneering and nature, demonstrate improved knowledge of select\nSTEM topics, and are more interested in pursuing STEM careers.",
+        "index_terms": [
+            "Bioinspired robots",
+            "educational technology",
+            "K–12 education",
+            "mobile robots",
+            "science",
+            "technology",
+            "engineering",
+            "and mathematics (STEM)",
+            "underwater vehicles"
+        ]
+    },
+    {
+        "title": "Color Compensation of Multicolor FISH Images",
+        "authors": [
+            "Hyohoon Choi*",
+            "Member",
+            "IEEE",
+            "Kenneth R. Castleman",
+            "Member",
+            "IEEE",
+            "Alan C. Bovik",
+            "Fellow",
+            "IEEE"
+        ],
+        "abstract": "Multicolor\n\nhybridization\n(M-FISH)\ntechniques provide color karyotyping that allows\nsimultaneous analysis of numerical and structural abnormalities\nof whole human chromosomes. Chromosomes are stained com-\nbinatorially in M-FISH. By analyzing the intensity combinations\nof each pixel, all chromosome pixels in an image are classiﬁed.\nDue to the overlap of excitation and emission spectra and the\nbroad sensitivity of image sensors, the obtained images contain\ncrosstalk between the color channels. The crosstalk complicates\nboth visual and automatic image analysis and may eventually\naffect the classiﬁcation accuracy in M-FISH. The removal of\ncrosstalk is possible by ﬁnding the color compensation matrix,\nwhich quantiﬁes the color spillover between channels. However,\nthere exists no simple method of ﬁnding the color compensation\nmatrix from multichannel ﬂuorescence images whose specimens\nare combinatorially hybridized. In this paper, we present a method\nof calculating the color compensation matrix for multichannel\nﬂuorescence images whose specimens are combinatorially stained.",
+        "index_terms": [
+            "Chromosomes",
+            "color compensation",
+            "crosstalk, ﬂuorescence in-situ hybridization (FISH)",
+            "ﬂuorescence",
+            "multicolor ﬂuorescence in-situ hybridization (M-FISH)",
+            "multicolor",
+            "multi- spectral"
+        ]
+    },
+    {
+        "title": "Comparison of Valid Ocean Observations Between MODIS Terra and Aqua Over the Global Oceans",
+        "authors": [
+            "Lian Feng",
+            "Chuanmin Hu"
+        ],
+        "abstract": "Ocean color satellite missions to measure the bio-\nphysical and geochemical properties of the surface ocean need\nto consider not only the spectral and spatial requirements of the\nsensors but also the satellite overpass time to maximize valid\nobservations. The valid observations are impacted not only by\ncloud cover but also by other perturbations such as sun glint\nand stray light. Using Level-3 global composites of three ocean\nproducts (chlorophyll a or Chl-a, normalized ﬂorescence line\nheight or nFLH, and sea surface temperature or SST), the daily\npercentage valid observations (DPVOs) over the global oceans\nwere calculated, from which the differences between MODIS Aqua\n(afternoon pass) and MODIS Terra (morning pass) have been ana-\nlyzed. For all three products, Aqua shows more valid observations\nthan Terra over the Southern Ocean, the ocean near Peru and\nChile, and the ocean around Angola and Namibia, with relatively\n>30% more valid observations in boreal winter months due to\nlower cloud coverage in the afternoon. In contrast, more than 20%\nof valid Chl-a and nFLH observations are obtained by Terra in the\nNorth Indian Ocean, and 10%–30% more valid observations by\nTerra are also found for the Equatorial Paciﬁc and Atlantic oceans.\nThese can be possibly linked to the lower presence of sun glint for\nTerra. Compared with Chl-a and nFLH, SST retrievals are more\ntolerant to sun glint and other perturbation factors, leading to\nmuch higher DPVOs. The implications of these ﬁndings to future\nsatellite mission design and ﬁeld campaigns are also discussed.",
+        "index_terms": [
+            "Aqua",
+            "chlorophyll-a (Chl-a)",
+            "cloud cover",
+            "high quality",
+            "normalized ﬂorescence line height (nFLH)",
+            "ocean color, remote sensing",
+            "sea surface temperature (SST)",
+            "sun glint",
+            "Terra, valid observation"
+        ]
+    },
+    {
+        "title": "Composite Analysis-Based Machine Learning for Prediction of Tropical Cyclone-Induced Sea Surface Height Anomaly",
+        "authors": [
+            "Hongxing Cui",
+            "Danling Tang",
+            "Huizeng Liu",
+            "Yi Sui",
+            "Xiaowei Gu"
+        ],
+        "abstract": "Sea surface height anomaly (SSHA) induced by trop-\nical cyclones (TCs) is closely associated with oscillations and is a\ncrucial proxy for thermocline structure and ocean heat content in\nthe upper ocean. The prediction of TC-induced SSHA, however,\nhas been rarely investigated. This study presents a new composite\nanalysis-based random forest (RF) approach to predict daily TC\nwind pump induced SSHA. The proposed method utilizes TC’s\ncharacteristics and prestorm upper oceanic parameters as input\nfeatures to predict TC-induced SSHA up to 30 days after TC\npassage. Simulation results suggest that the proposed method is\nskillful at inferring both the amplitude and temporal evolution\nof SSHA induced by TCs of different intensity groups. Using a\nTC-centered 5° × 5° box, the proposed method achieves highly\naccurate prediction of TC-induced SSHA over the Western North\nPaciﬁc with root mean square error of 0.024 m, outperforming\nalternative machine learning methods and the numerical model.\nMoreover, the proposed method also demonstrated good predic-\ntion performance in different geographical regions, i.e., the South\nChina Sea and the Western North Paciﬁc subtropical ocean. The\nstudy provides insight into the application of machine learning in\nimproving the prediction of SSHA inﬂuenced by extreme weather\nconditions. Accurate prediction of TC-induced SSHA allows for\nbetter preparedness and response, reducing the impact of extreme\nevents (e.g., storm surge) on people and property.",
+        "index_terms": [
+            "Composite analysis",
+            "machine learning",
+            "random  forest",
+            "sea surface height anomaly",
+            "tropical cyclones"
+        ]
+    },
+    {
+        "title": "Computational Modeling in Biohydrodynamics: Trends, Challenges, and Recent Advances",
+        "authors": [
+            "Rajat Mittal"
+        ],
+        "abstract": "Computational modeling is assuming increased\nsigniﬁcance in the area of biohydrodynamics. This trend has\nbeen enabled primarily by the widespread availability of pow-\nerful computers, as well as the induction of novel numerical and\nmodeling approaches. However, despite these recent advances,\ncomputational modeling of ﬂows in complex biohydrodynamic\nconﬁgurations remains a challenging proposition. This is due\nto a multitude of factors, including the need to handle a wide\nrange of ﬂow conditions (laminar, transitional, and turbulent), the\nubiquity of two-way coupled interaction between the ﬂuid and\nmoving/deformable structures, and, ﬁnally, the requirement of\naccurately resolving unsteady ﬂow features. Recently, as part of an\nOfﬁce of Naval Research sponsored review, the objective of which\nwas to distill the science related to biology-based hydrodynamics\nfor maneuvering and propulsion, an extensive survey of computa-\ntional biohydrodynamics was undertaken. The key ﬁndings of this\nsurvey are reported in this paper.",
+        "index_terms": [
+            "Biohydrodynamics",
+            "computational ﬂuid dy-  namics",
+            "computational modeling",
+            "numerical simulation"
+        ]
+    },
+    {
+        "title": "Computing the Hybridization Number of Two Phylogenetic Trees Is Fixed-Parameter Tractable",
+        "authors": [
+            "Magnus Bordewich",
+            "Charles Semple"
+        ],
+        "abstract": "Reticulation processes in evolution mean that the ancestral history of certain groups of present-day species is non-tree-like.\nThese processes include hybridization, lateral gene transfer, and recombination. Despite the existence of reticulation, such events are\nrelatively rare and, so, a fundamental problem for biologists is the following: Given a collection of rooted binary phylogenetic trees on\nsets of species that correctly represent the tree-like evolution of different parts of their genomes, what is the smallest number of\n“reticulation” vertices in any network that explains the evolution of the species under consideration? It has been previously shown that\nthis problem is NP-hard even when the collection consists of only two rooted binary phylogenetic trees. However, in this paper, we\nshow that the problem is fixed-parameter tractable in the two-tree instance when parameterized by this smallest number of reticulation\nvertices.",
+        "index_terms": [
+            "Rooted phylogenetic tree",
+            "reticulate evolution",
+            "hybridization network",
+            "agreement forest",
+            "subtree prune and regraft"
+        ]
+    },
+    {
+        "title": "Decorrelating Remote Sensing Color Bands From Bathymetry in Optically Shallow Waters",
+        "authors": [
+            "Christopher L. Conger",
+            "Eric J. Hochberg",
+            "Charles H. Fletcher",
+            "III",
+            "Marlin J. Atkinson"
+        ],
+        "abstract": "We have developed a simple technique to decorrelate\nremote sensing color band data from depth in optically shallow\nwater. The method linearizes color band data with respect to depth\nby subtracting an optically deepwater value from the entire wave-\nband under consideration and taking the natural logarithm of the\nresult. Next, this linearized waveband is rotated about the model 2\nregression line computed against a bathymetry band. The rotated\ncolor band is decorrelated from water depth. We demonstrate the\ntechnique for a small area of Kailua Bay, Oahu, HI, using Quick-\nbird multispectral and Scanning Hydrographic Operational Air-\nborne Lidar Survey LIDAR data. Results indicate that color band\ndata are effectively decorrelated from depth, while bottom reﬂector\nvariability is maintained, thus providing the basis for further anal-\nysis of the depth-invariant wavebands. The primary beneﬁt of our\ntechnique is that wavebands are rotated independently, preserving\nrelative spectral information.",
+        "index_terms": [
+            "Bathymetry",
+            "coastal remote sensing",
+            "Kailua Bay,  LIDAR",
+            "Quickbird",
+            "radiative transfer",
+            "reﬂectance"
+        ]
+    },
+    {
+        "title": "Designing an Archival Satellite Transmitter for Life-Long Deployments on Oceanic Vertebrates: The Life History Transmitter",
+        "authors": [
+            "Markus Horning",
+            "Roger D. Hill"
+        ],
+        "abstract": "Despite the widespread use of sophisticated telemetry\ntransmitters in behavioral, physiological and ecological studies,\nfew studies on population dynamics of oceanic vertebrates use\nsuch technology, primarily due to the difﬁculty of obtaining\nmulti-year records from individual animals. We present the ﬁrst\ntelemetry transmitter speciﬁcally designed for collecting vital\ndata from marine vertebrates over extended periods, up to a\ndecade. The implantable Life History Transmitter records data\nthroughout the life of a host animal. After the host animal dies,\nthe tag is extruded, and, while ﬂoating on the ocean or lying on a\nbeach, transmits previously stored data to orbiting satellites. For\ntags relying solely on end-of-deployment transmission, reliability\nand proper recognition of tag state is crucial. The Life History\nTransmitter uses heuristic tag state determination, in combination\nwith simple error detection and fault tolerance measures, to\nincrease tag reliability and likelihood of data recovery. We used\na computer simulation of tag deployments and various sensor\nfailures on a PC platform, in combination with time-accelerated\nsimulations running on the actual deployment platform, to test the\nfunctionality of fault tolerance and error detection protocols.",
+        "index_terms": [
+            "Error detection",
+            "fault tolerance",
+            "LHX tag",
+            "long  term tracking",
+            "marine mammals",
+            "survival rates",
+            "tag reliability"
+        ]
+    },
+    {
+        "title": "Effects of Cold Eddy on Kuroshio Meander and Its Surface Properties, East of Taiwan",
+        "authors": [
+            "Po-Chun Hsu",
+            "Student Member",
+            "IEEE",
+            "Chen-Chih Lin",
+            "Shih-Jen Huang",
+            "Chung-Ru Ho"
+        ],
+        "abstract": "Satellite remote-sensing data and glider data are used\nto study the Kuroshio meander and surface properties, east of\nTaiwan. The Kuroshio meandered eastward 13 times between 1993\nand 2013 because of cold eddies propagating from the western\nPaciﬁc. The maximum duration of the meanders was 80 days.\nThe farthest eastward shift of the Kuroshio axis was approxi-\nmately 270 km from its original position, depending on the size\nof the cold eddy. Cold eddies reduce the current speed at the\nKuroshio axis to 84% of its seasonal average, which is approxi-\nmately 0.75 m/s. According to glider data, isopycnal uplifting is\nproduced when cold eddies impinge on the Kuroshio, and satellite\nobservations show that the sea surface temperature (SST) drops\n1−3 ◦C and that the chlorophyll-a (chl-a) concentration increases\nup to 0.54 mg/m3.",
+        "index_terms": [
+            "Chlorophyll-a (chl-a)",
+            "cold eddy",
+            "kuroshio mean-  der",
+            "sea surface temperature (SST)"
+        ]
+    },
+    {
+        "title": "Estimating the Pycnocline Depth From the SAR Signature of Internal Waves in the Alboran Sea",
+        "authors": [
+            "Morgane Dessert",
+            "Marc Honnorat",
+            "Jean-Marc Le Caillec",
+            "Senior Member",
+            "IEEE",
+            "Christophe Messager",
+            "Xavier Carton"
+        ],
+        "abstract": "In the Alboran Sea, west of the Straits of Gibraltar,\nthe pycnocline depth has been assessed from the signature of a\nlarge amplitude internal wave (LAIW) captured by a synthetic\naperture radar (SAR) image. First, the coefﬁcients of the extended\nKorteweg–deVriès model were expressed using two different mod-\nels of ocean stratiﬁcation: an interfacial model and a continu-\nously stratiﬁed ocean model. Then, via a backscattering model,\nthe same extended Korteweg–deVriès coefﬁcients were computed.\nThis latter calculation was performed along several transects ex-\ntracted from the LAIW surface signature and through an improved\nCARMA-derived method. Using the values of the coefﬁcients for\nthe ocean stratiﬁcation model and those calculated from the SAR\nimage, we obtained solutions for the pycnocline depth and thick-\nness. This method was applied to an LAIW event on 1 October\n2008, for which SAR data and stratiﬁcation measurements by an\nin-situ experiment were available jointly. The results are that the\ninterfacial stratiﬁcation model provides only few solutions for the\npycnocline depth, while the continuous stratiﬁcation model allows\nan interval of solutions for the pycnocline depth and thickness.\nThese models are nevertheless complementary. Extra applications\nof this method on other ocean regions would be of interest.",
+        "index_terms": [
+            "Alboran Sea",
+            "ocean internal waves",
+            "synthetic  aperture radar (SAR)"
+        ]
+    },
+    {
+        "title": "Estimation of Solar Energy Harvested for Autonomous Jellyﬁsh Vehicles (AJVs)",
+        "authors": [
+            "Keyur B. Joshi",
+            "John H. Costello",
+            "Shashank Priya"
+        ],
+        "abstract": "There is signiﬁcant\n\nin harvesting ocean\nenergy for powering the autonomous vehicles that can conduct\nsurveillance for long durations. In this paper, we analyze the\napplicability of solar cells as a power source for medusa-inspired\nbiomimetic vehicles. Since these vehicles will be operating under\nocean waters and may need to dive at various depths, a systematic\ninvestigation was conducted to determine the variation of output\npower as a function of depth and salinity levels. We modeled solar\nenergy harvested by ﬂexible amorphous solar cell coated jellyﬁsh\nvehicles by considering the variables bell diameter, turbidity,\ndepth, and ﬁneness ratio. Low ﬁneness ratio shapes were found to\nbe better for solar energy powered vehicles. Study of three repre-\nsentative species, Aurelia aurita (AA), Mastigias sp., and Cyanea\ncapillata indicates that harvested power was proportional to bell\ndiameter. Optimum power can be harvested by tilting the vehicle\naxis to face refracted sunrays. Depending on a swimming pattern,\npower harvested in charging mode and in propulsion mode could\nvary signiﬁcantly. The model indicates that, under some circum-\nstances, amorphous silicon solar cell may be a cost-effective way\nto power autonomous underwater vehicles (AUVs) operating in\nshallow-water conditions with large lateral travel distances.",
+        "index_terms": [
+            "Incidence angle,  jellyﬁsh",
+            "photovoltaic cell,  salinity",
+            "turbidity",
+            "unmanned undersea vehicle"
+        ]
+    },
+    {
+        "title": "Estimation of the Ocean Water Albedo From Remote Sensing and Meteorological Reanalysis Data",
+        "authors": [
+            "Youbin Feng",
+            "Qiang Liu",
+            "Ying Qu",
+            "Shunlin Liang",
+            "Fellow",
+            "IEEE"
+        ],
+        "abstract": "Ocean water albedo (OWA) plays an important role\nin the global climate variation. Compared with the achievements\nin land surface albedo studies, the global distributions of ocean\nwater and sea ice albedo are seldom addressed. This study de-\nsigned an operational global OWA algorithm based on the three-\ncomponent reﬂectance model of the ocean water: sun glint,\nwhitecaps, and water-leaving reﬂectance. The related achieve-\nments in these three areas are reviewed and integrated into the\noperational algorithm. After the sensitive analysis, the algorithm\nis compared with previous studies and validated with ground\nobservations at COVE site located 25 km east of Virginia Beach\n(36.91◦ N, 75.71◦ W), and the results indicate that the proposed\nalgorithm is generally consistent with previous parameterization\nscheme. As an example, the global OWAs in summer and winter\n2011 are generated using the remote sensing reﬂectance data\nsets via the Moderate Resolution Imaging Spectroradiometer and\nModern-Era Retrospective analysis for Research and Applications\nmeteorological reanalysis data set. The generated product includes\ninstantaneous (e.g., local noon) and daily mean OWAs under both\nclear-sky and white-sky conditions. Upon the examples, the local\nnoon clear-sky OWA shows a signiﬁcant latitude variation due to\nthe dominance of the solar angle, whereas the white-sky OWA\nis sensitive to wind speeds and optical constituents. The global\ndistribution of the daily mean OWA exhibits a similar trend to\nthe local noon OWA. However, the daily mean clear-sky OWA is\nsigniﬁcantly larger than the local noon OWA; this ﬁnding should\nbe noted when using OWA products for energy balance research.\nAdditionally, all forms of OWA products exhibit increase in coastal\nareas with high input of terrestrial matters.",
+        "index_terms": [
+            "Ocean water water-leaving reﬂectance",
+            "whitecaps"
+        ]
+    },
+    {
+        "title": "Evaluation of Sea Surface Winds and Waves Retrieved From the Chinese HY-2B Data",
+        "authors": [
+            "Weizeng Shao",
+            "Member",
+            "IEEE",
+            "Tao Jiang",
+            "Xingwei Jiang",
+            "Youguang Zhang",
+            "Wei Zhou"
+        ],
+        "abstract": "The wind and wave derived from the scatterometer\nand altimeter on board the Chinese Haiyang-2B (HY-2B) satel-\nlite were systemically evaluated in this article. The analysis of\nmatchups between advanced scatterometer and the winds from\nHY-2B scatterometer with wind speeds up to 25 m/s showed a\n0.78 m/s root-mean-square error (RMSE) with a 0.97 correlation\n(COR), superior to the 1.2 m/s RMSE and 0.93 COR of winds from\nthe altimeter of HY-2B. Simultaneously, signiﬁcant wave heights\n(SWHs) measured from HY-2B were collocated with measurements\nfrom the Jason-3 altimeter. Analysis of the calibration concluded\nthat the observations from the HY-2B altimeter performed well at\nlow-to-moderate sea states, yielding an RMSE of 0.29 m for SWH\nwith a 0.98 COR for geophysical data records (GDRs) data after\nsystematic corrections using the MOE determination method. In\nparticular there were 20 typhoons occurring in China Seas during\n2019–2020. The evaluation of high SWH when compared with\nthose (SWH > 7 m) from Jason-3/WW3 indicated that HY-2B\nis accurate, with a 0.87 m/0.68 m RMSE and a 0.85 COR with\nSWH. Finally, statistical analysis of wind speed and SWH was\ninvestigated through waves simulated from the WAVEWATCH-\nIII (WW3)/hybrid coordinate ocean using the current and the\nsea surface temperature (SST). The HY-2B wind measurements\nperformed well at sea surface currents below 1 m/s and SWH\nless than 3 m, while a term for SST should be included in the\nscatterometer wind speed retrieval. In addition, wave states likely\naffect the accuracy of HY-2B wave speed measurements.",
+        "index_terms": [
+            "Haiyang-2B (HY-2B)",
+            "sea surface waves",
+            "sea  surface winds",
+            "typhoon condition"
+        ]
+    },
+    {
+        "title": "Extracting Oil Slick Features From VIIRS Nighttime Imagery Using a Gaussian Filter and Morphological Constraints",
+        "authors": [
+            "Mengqiu Wang",
+            "Chuanmin Hu"
+        ],
+        "abstract": "Satellite images of reﬂected sunlight have been used\nto detect and monitor oil spills in oceans. However, such a ca-\npacity is often hindered by the image noise due to either a low\nsignal-to-noise ratio or other image features such as clouds or\ncloud shadows. The problem is particularly severe for nighttime\nimages captured by the Visible Infrared Imager Radiometer Suite\n(VIIRS). This letter proposes a practical method to extract oil slick\nfeatures in a semiautomatic fashion from VIIRS nighttime images\nand other noisy optical remote sensing images. The method is\nbased on statistical information and morphological operators, and\nit is demonstrated to be able to effectively remove the noise and\nidentify line features with the appropriate selection of threshold\nvalues. Testing this method over VIIRS nighttime images shows\nthe preliminary success of oil slick feature extraction. Experiments\non daytime data collected by the Moderate Resolution Imaging\nSpectroradiometer (MODIS) also suggest the applicability of this\nmethod to other optical remote sensing images. However, the\nrequirement of human intervention to determine optimal parame-\nters points to the need for improved automation in future works.",
+        "index_terms": [
+            "Day–night band (DNB)",
+            "feature extraction",
+            "mod- erate resolution imaging spectroradiometer (MODIS)",
+            "moon glint, morphological operator",
+            "noise reduction",
+            "oil slicks",
+            "visible infrared imager radiometer suite (VIIRS)"
+        ]
+    },
+    {
+        "title": "Fast and Robust Single Particle Reconstruction in 3D Fluorescence Microscopy",
+        "authors": [
+            "Thibaut Eloy",
+            "Étienne Baudrier",
+            "Marine Laporte",
+            "Virginie Hamel",
+            "Paul Guichard",
+            "Denis Fortun"
+        ],
+        "abstract": "Single particle reconstruction has recently emerged\nin 3D ﬂuorescence microscopy as a powerful technique to improve\nthe axial resolution and the degree of ﬂuorescent labeling. It is\nbased on the reconstruction of an average volume of a biological\nparticle from the acquisition of multiple views with unknown poses.\nCurrent methods are limited either by template bias, restriction\nto 2D data, high computational cost or lack of robustness to low\nﬂuorescent labeling. In this work, we propose a single particle\nreconstruction method dedicated to convolutional models in 3D\nﬂuorescence microscopy that overcomes these issues. We address\nthe joint reconstruction and estimation of the poses of the particles,\nwhich translates into a challenging non-convex optimization prob-\nlem. Our approach is based on a multilevel reformulation of this\nproblem, and the development of efﬁcient optimization techniques\nat each level. We demonstrate on synthetic data that our method\noutperforms the standard approaches in terms of resolution and\nreconstruction error, while achieving a low computational cost. We\nalso perform successful reconstruction on real datasets of centrioles\nto show the potential of our method in concrete applications.",
+        "index_terms": [
+            "Fluorescence microscopy",
+            "image reconstruction,  image restoration",
+            "inverse problems",
+            "machine vision"
+        ]
+    },
+    {
+        "title": "Graph-Search and Differential Equations for Time-Optimal Vessel Route Planning in Dynamic Ocean Waves",
+        "authors": [
+            "Gianandrea Mannarini",
+            "Deepak N. Subramani",
+            "Pierre F. J. Lermusiaux",
+            "Member",
+            "IEEE",
+            "Nadia Pinardi"
+        ],
+        "abstract": "Time-optimal paths are evaluated by VISIR (“dis-\ncoVerIng Safe and effIcient Routes”), a graph-search ship routing\nmodel, with respect to the solution of the fundamental differential\nequations governing optimal paths in a dynamic wind-wave\nenvironment. The evaluation exercise makes use of identical\nsetups:\ntopological constraints, dynamic wave environmental\nconditions, and vessel-ocean parametrizations, while advection\nby external currents is not considered. The emphasis is on\npredicting the time-optimal ship headings and Speeds Through\nWater constrained by dynamic ocean wave ﬁelds. VISIR upgrades\nregarding angular resolution, time-interpolation, and static nav-\nigational safety constraints are introduced. The deviations of\nthe graph-search results relative to the solution of the exact\ndifferential equations in both the path duration and length are\nassessed. They are found to be of the order of the discretization\nerrors, with VISIR’s solution converging to that of the differential\nequation for sufﬁcient resolution.",
+        "index_terms": [
+            "Graph-search",
+            "time-optimal differential opti- level set equations",
+            "reachability",
+            "ocean modelling,  mization, computational performance",
+            "VISIR"
+        ]
+    },
+    {
+        "title": "High Latitude Sea Surface Skin Temperatures Derived From Saildrone Infrared Measurements",
+        "authors": [
+            "Chong Jia",
+            "Peter J. Minnett",
+            "Malgorzata Szczodrak",
+            "Miguel Izaguirre"
+        ],
+        "abstract": "From May 15 to October 11, 2019, six Saildrone\nuncrewed surface vehicles (USVs) were deployed for 150-day\ncruises collecting a suite of atmospheric and oceanographic\nmeasurements from Dutch Harbor, Alaska, transiting the Bering\nStrait into the Chukchi Sea and the Arctic Ocean. Two Saildrones\nfunded by the National Aeronautics and Space Administration\n(NASA), SD-1036 and SD-1037, were equipped with infrared (IR)\nradiation pyrometers in a “unicorn” structure on the deck for\nthe determination of the ocean sea surface skin temperature\n(SSTskin). We present an algorithm to derive SSTskin from the\ndownward- and upward-looking radiometers and estimate the\nmain contributions to the inaccuracy of SSTskin. After stringent\nquality control of data and eliminating measurements inﬂuenced\nby sea ice and precipitation, and restricting the acceptable\ntilt angles of the USV based on radiative transfer simulations,\nSSTskin can be derived to an accuracy of approximately 0.12 K.\nThe error budget of the derived SSTskin is developed, and the\nlargest component comes from the instrumental uncertainties,\nassuming that the viewing geometry is adequately determined.\nThus, Saildrones equipped with these sensors could provide\nsufﬁciently accurate SSTskin retrievals for studying the physics of\nthe thermal skin effect, in conjunction with accurate subsurface\nthermometer measurements, and for validating satellite-derived\nSSTskin ﬁelds at high latitudes.",
+        "index_terms": [
+            "Arctic",
+            "infrared (IR) radiometer",
+            "Saildrone",
+            "sea  surface skin temperature (SSTskin)"
+        ]
+    },
+    {
+        "title": "Hunting Task Allocation for Heterogeneous Multi-AUV Formation Target Hunting in IoUT: A Game-Theoretic Approach",
+        "authors": [
+            "Meiyan Zhang",
+            "Hao Chen",
+            "Wenyu Cai"
+        ],
+        "abstract": "As one of the important tools for exploring the\nocean, multiple autonomous underwater vehicles (multi-AUVs)\nsystem can complete complex tasks in complex Internet of\nUnderwater Things. Collaborative target search, as a typical\napplication of multiple autonomous underwater vehicle (AUV)\nsystems, has been applied in the ﬁelds of territorial sea secu-\nrity and marine biology research. Among them, hunting task\nallocation is a key issue determining the effective application of\nmultiple AUV systems. Therefore, this article proposes a hunt-\ning task assignment framework based on contract network (CN)\nto assign hunting tasks. In the investigated framework, the ten-\nderee AUV (TAUV) is responsible for setting the task reward\nand assigning hunting tasks, while bidder AUVs (BAUVs) set\nthe working time as bidding information. Combining the mobile\nenergy consumption and communication energy consumption of\nhunter AUVs, we establish the revenue optimization model of\nBAUVs and the TAUV. Based on the above model, we model the\ninteraction process of hunting task allocation process between\nBAUVs and the TAUV as a Stackelberg game, and use the\nbackward induction method to prove that there is a unique\nStackelberg equilibrium (SE) in the game. In addition, this arti-\ncle proposes a strategy search algorithm based on the steepest\ndescent method (SSA_SDM) to obtain the optimal strategy of\nBAUVs and the TAUV, which can achieve SE. Finally, experimen-\ntal results show that SSA_SDM can reach the SE and outperform\nother algorithms.",
+        "index_terms": [
+            "Game  theoretic",
+            "hunting task allocation, multiple autonomous underwater vehicle (multi-AUV) formation, target hunting"
+        ]
+    },
+    {
+        "title": "Improving Chlorophyll-A Estimation From Sentinel-2 (MSI) in the Barents Sea Using Machine Learning",
+        "authors": [
+            "Muhammad Asim",
+            "Camilla Brekke",
+            "Member",
+            "IEEE",
+            "Arif Mahmood",
+            "Torbjørn Eltoft",
+            "Member",
+            "IEEE",
+            "Marit Reigstad"
+        ],
+        "abstract": "This article addresses methodologies for remote sens-\ning of ocean Chlorophyll-a (Chl-a), with emphasis on the Barents\nSea. We aim at improving the monitoring capacity by integrating\nin situ Chl-a observations and optical remote sensing to locally\ntrain machine learning (ML) models. For this purpose, in situ\nmeasurements of Chl-a ranging from 0.014–10.81 mg/m3, collected\nfor the years 2016–2018, were used to train and validate models. To\naccurately estimate Chl-a, we propose to use additional information\non pigment content within the productive column by matching the\ndepth-integrated Chl-a concentrations with the satellite data. Using\nthe optical images captured by the multispectral imager instrument\non Sentinel-2 and the in situ measurements, a new spatial window-\nbased match-up dataset creation method is proposed to increase\nthe number of match-ups and hence improve the training of the\nML models. The match-ups are then ﬁltered to eliminate erroneous\nsamples based on the spectral distribution of the remotely sensed\nreﬂectance. In addition, we design and implement a neural network\nmodel dubbed as the ocean color net (OCN), that has performed\nbetter than existing ML-based techniques, including the Gaussian\nprocess Regression (GPR), regionally tuned empirical techniques,\nincluding the ocean color (OC3) algorithm and the spectral band\nratios, as well as the globally trained Case-2 regional/coast colour\n(C2RCC) processing chain model C2RCC-networks. The proposed\nOCN model achieved reduced mean absolute error compared to\nthe GPR by 5.2%, C2RCC by 51.7%, OC3 by 22.6%, and spectral\nband ratios by 29%. Moreover, the proposed spatial window and\ndepth-integrated match-up creation techniques improved the per-\nformance of the proposed OCN by 57%, GPR by 41.9%, OC3 by\n5.3%, and spectral band ratio method by 24% in terms of RMSE\ncompared to the conventional match-up selection approach.",
+        "index_terms": [
+            "Barents sea",
+            "Chlorophyll-a (Chl-a) monitoring,  ocean color (OC)"
+        ]
+    },
+    {
+        "title": "Improving GNSS-R Ocean Wind Speed Retrieval for the BF-1 Mission Using Satellite Platform Attitude Measurements",
+        "authors": [
+            "Chenxin Chen",
+            "Xiaoyu Wang",
+            "Zhao Bian",
+            "Haoyun Wei",
+            "Dongdong Fan",
+            "Zhaoguang Bai"
+        ],
+        "abstract": "The receive antenna gain is needed to accurately cali-\nbrate the normalized bistatistic radar cross section measured by\nthe BF-1 mission, which is a global navigation satellite system\nreﬂectometry (GNSS-R) constellation of two microsatellites and\nthe ﬁrst Chinese GNSS-R satellite mission. The instability of the\nsatellite platform is the main cause of receive antenna gain er-\nrors. To obtain a high precision gain value, a calibration method\nthat remaps the ocean surface detection location to the receive\nantenna pattern using satellite platform attitude measurements is\nproposed in this article. Thirty-two orbits of delay Doppler maps\ndata, which were greatly disturbed by the attitude, are selected\nto test the effectiveness of the proposed algorithm. The accuracy\nof wind speed retrieval is analyzed, and results show that the\ndata calibration algorithm is effective in reducing the wind speed\nretrieval error. Compared with the un-calibrated data, the data\nsubjected to the calibration algorithm show a signiﬁcant improve-\nment of 19.33% in correlation coefﬁcient and average decreases\nof 30.91% and 42.57% in root-mean-square error and mean bias\nerror, respectively. Moreover, the comparison highlights that the\ninﬂuence of the satellite platform attitude disturbance on wind\nspeed retrieval is abated signiﬁcantly. The proposed approach can\neffectively improve the quality of GNSS-R measurements, allowing\nfor a better understanding of global weather abnormalities and\ngenerally improving weather forecasting.",
+        "index_terms": [
+            "BF-1 mission",
+            "Bistatic radar",
+            "delay Doppler map (DDM)",
+            "geometric calibration",
+            "global navigation satellite system reﬂectometry (GNSS-R)",
+            "ocean remote sensing",
+            "satellite attitude, wind speed retrieval"
+        ]
+    },
+    {
+        "title": "Improving the Fitness of High-Dimensional Biomechanical Models via Data-Driven Stochastic Exploration",
+        "authors": [
+            "Veronica J. Santos∗",
+            "Member",
+            "IEEE",
+            "Carlos D. Bustamante",
+            "Francisco J. Valero-Cuevas",
+            "Member",
+            "IEEE"
+        ],
+        "abstract": "The ﬁeld of complex biomechanical modeling has be-\ngun to rely on Monte Carlo techniques to investigate the effects\nof parameter variability and measurement uncertainty on model\noutputs, search for optimal parameter combinations, and deﬁne\nmodel limitations. However, advanced stochastic methods to per-\nform data-driven explorations, such as Markov chain Monte Carlo\n(MCMC), become necessary as the number of model parameters\nincreases. Here, we demonstrate the feasibility and, what to our\nknowledge is, the ﬁrst use of an MCMC approach to improve\nthe ﬁtness of realistically large biomechanical models. We used a\nMetropolis–Hastings algorithm to search increasingly complex pa-\nrameter landscapes (3, 8, 24, and 36 dimensions) to uncover under-\nlying distributions of anatomical parameters of a “truth model”\nof the human thumb on the basis of simulated kinematic data\n(thumbnail location, orientation, and linear and angular veloci-\nties) polluted by zero-mean, uncorrelated multivariate Gaussian\n“measurement noise.” Driven by these data, ten Markov chains\nsearched each model parameter space for the subspace that best ﬁt\nthe data (posterior distribution). As expected, the convergence time\nincreased, more local minima were found, and marginal distribu-\ntions broadened as the parameter space complexity increased. In\nthe 36-D scenario, some chains found local minima but the majority\nof chains converged to the true posterior distribution (conﬁrmed\nusing a cross-validation dataset), thus demonstrating the feasibility\nand utility of these methods for realistically large biomechanical\nproblems.",
+        "index_terms": [
+            "Bayesian statistics",
+            "biomechanical model",
+            "Markov chain Monte Carlo (MCMC)",
+            "Metropolis–Hastings algorithm",
+            "pa- rameter estimation",
+            "thumb"
+        ]
+    },
+    {
+        "title": "Inﬂuences of Two-Scale Roughness Parameters on the Ocean Surface Emissivity From Satellite Passive Microwave Measurements",
+        "authors": [
+            "Sang-Moo Lee",
+            "Member",
+            "IEEE",
+            "Albin J. Gasiewski",
+            "Fellow",
+            "IEEE",
+            "Byung-Ju Sohn"
+        ],
+        "abstract": "In this study, a method for estimating two-scale\nroughness inﬂuences on the ocean surface emissivity is developed\nby solving a simpliﬁed two-scale ocean emissivity model equation.\nIn this model, scatterings by small-scale roughness are described\nby the Kirchhoff approximation. For large-scale roughness, the\nmean local\nincidence angle (LIA) is introduced to describe\nslanted surface slope deviation from ﬂat surface. This study\nfocuses on the ocean state under low/moderate wind conditions\nin order to preclude foam and anisotropic inﬂuences within\nthe model. Consequently, a unique pair of two-scale roughness\nparameters are estimated from the equation using observed ocean\nemissivities from AMSR2-measured radiances. The results show\nthat the estimated small-scale roughness at 6.925 and 10.65 GHz\nis linearly correlated with the 10-m height wind speed U10.\nAs the frequency reaches 36.5 GHz, however, the scatters between\nsmall-scale roughness and U10 are increased, which suggests that\nthe Kirchhoff bistatic scattering function is not fully suitable to\ndescribe the small-scale roughness at this frequency. The linear\nrelationships between mean LIA and U10 are found with high\ncorrelation coefﬁcients. In addition, the estimated mean LIA\ncorresponds well with associated roughness calculated from both\nobserved and modeled ocean wave height spectra. This evidence\ndemonstrates that the proposed large-scale roughness parameter-\nization is physically meaningful and, therefore, the mean LIA has\na physical basis in large-scale roughness. In addition, the strong\ncorrelations between the roughness parameters and U10 demon-\nstrate the possibility to estimate U10 from the AMSR2 data\nusing intermediate parameters that are physically based on ocean\nsurface characteristics.",
+        "index_terms": [
+            "Emissivity,  large-scale roughness",
+            "microwave, ocean",
+            "passive microwave remote sensing",
+            "small-scale roughness, wind speed"
+        ]
+    },
+    {
+        "title": "Kernel Granger Causality Mapping Effective Connectivity on fMRI Data",
+        "authors": [
+            "Wei Liao",
+            "Daniele Marinazzo",
+            "Zhengyong Pan",
+            "Qiyong Gong",
+            "Huafu Chen*"
+        ],
+        "abstract": "Although it is accepted that linear Granger causality\ncan reveal effective connectivity in functional magnetic resonance\nimaging (fMRI), the issue of detecting nonlinear connectivity has\nhitherto not been considered. In this paper, we address kernel\nGranger causality (KGC) to describe effective connectivity in\nsimulation studies and real fMRI data of a motor imagery task.\nBased on the theory of reproducing kernel Hilbert spaces, KGC\nperforms linear Granger causality in the feature space of suitable\nkernel functions, assuming an arbitrary degree of nonlinearity.\nOur results demonstrate that KGC captures effective couplings\nnot revealed by the linear case. In addition, effective connectivity\nnetworks between the supplementary motor area (SMA) as the\nseed and other brain areas are obtained from KGC.",
+        "index_terms": [
+            "Effective connectivity",
+            "functional magnetic reso-  nance imaging (fMRI)",
+            "kernel Granger causality (KGC)"
+        ]
+    },
+    {
+        "title": "Kinematics and Performance of Maneuvering Control Surfaces in Teleost Fishes",
+        "authors": [
+            "Jeffrey A. Walker"
+        ],
+        "abstract": "Many ﬁshes routinely exploit resources in high-en-\nergy marine habitats of interest to ocean engineers, including\nrocky coasts and coral reefs. How ﬁshes modulate ﬁn motions to\ncorrect perturbations to the preferred heading or to maneuver in\ncomplex structure should interest both biologists and ocean engi-\nneers. These ﬁn motions are reviewed in order to generate simple\nmodels of causal relationships between ﬁn design, motion, and\nmaneuvering performance. The available data on maneuvering\nperformance in ﬁshes is reviewed to compare to the simple models,\nto identify gaps in our knowledge, and to outline a research\nprogram to address these gaps more effectively.",
+        "index_terms": [
+            "Fish",
+            "kinematics",
+            "maneuvering",
+            "pectoral ﬁns",
+            "re-  view"
+        ]
+    },
+    {
+        "title": "Likelihood Map Waveform Tracking Performance for GNSS-R Ocean Altimetry",
+        "authors": [
+            "Santiago Ozafrain",
+            "Pedro A. Roncagliolo",
+            "Carlos H. Muravchik"
+        ],
+        "abstract": "Ocean altimetry with Global Navigation Satellite Sys-\ntems signals (GNSS) signals is a remote sensing technique that\nmeasures the height of the sea surface through the difference in\npath length of the direct and reﬂected signal. Code altimetry esti-\nmates this parameter by tracking the code delay after performing\ncorrelations with a GNSS signal replica. It is of limited precision due\nto the low signal-to-noise ratio (SNR) and narrow bandwidth of the\nocean-reﬂected GNSS signal. However, the potential advantages of\nthe GNSS-R systems such as high temporal resolution and spatial\ncoverage are a motivation to improve its altimetric precision. In this\narticle, we present a performance assessment of the Likelihood Map\nWaveform tracking technique, a method based on Maximum Like-\nlihood Estimation theory that exploits the available reﬂected power\nin a more efﬁcient way than the single tracking point methods. We\nuse a modiﬁcation of the theoretical optimal solution that achieves a\nbetter performance than previous methods. We estimate it, in terms\nof SNR gain, using Monte Carlo method with a detailed stochastic\nmodel of the signal, and with actual signals from the Cyclone Global\nNavigation Satellite System. The gain values obtained were between\n1.64 and 3.66 dB in the theoretical analysis, and between 1.69 and\n2.62 dB with the real data, conﬁrming the potential of the proposed\napproach.",
+        "index_terms": [
+            "GNSS+R",
+            "Low Earth Orbit (LEO)",
+            "maximum  likelihood estimation",
+            "ocean altimetry",
+            "remote sensing"
+        ]
+    },
+    {
+        "title": "Machine Learning Methods for Spaceborne GNSS-R Sea Surface Height Measurement From TDS-1",
+        "authors": [
+            "Yun Zhang",
+            "Shen Huang",
+            "Yanling Han",
+            "Shuhu Yang",
+            "Zhonghua Hong",
+            "Dehao Ma",
+            "Wanting Meng"
+        ],
+        "abstract": "Sea surface height\n\nretrieval based on\nspaceborne Global Navigation Satellite System Reﬂectometry\n(GNSS-R) usually uses the GNSS-R geometric principle and\ndelay-Doppler map (DDM). The traditional method condenses the\nDDM information into a single scalar measure and requires error\nmodel correction. In this article, the idea of using machine learning\nmethods to retrieve SSH is proposed. Speciﬁcally, two widely-used\nmethods, principal component analysis combined with support\nvector regression (PCA-SVR) and convolution neural network\n(CNN), are used for veriﬁcation and comparative analysis based\non the observation data provided by Techdemosat-1 (TDS-1).\nAccording to the DDM inversion method, ten features from TDS-1\nLevel 1 data are selected as inputs; The SSH veriﬁcation model\nbased on the Danmarks Tekniske Universitet (DTU) 15 ocean\nwide mean SSH model and the DTU global ocean tide model is\nused as output veriﬁcation of SSH. For the hyperparameters in\nthe machine learning model, a grid search strategy is used to ﬁnd\nthe optimal values. By analyzing the TDS-1 data from 31 GPS\nsatellites, the mean absolute error (MAE), root-mean-square error\n(RMSE) and coefﬁcient of determination (R2) of the PCA-SVR\ninversion model are 0.61 m, 1.72 m, and 99.56%, respectively; and\nthe MAE, RMSE, and R2 of the CNN inversion model is 0.71 m,\n1.27 m, and 99.76%, respectively. In addition, the time required to\ntrain the PCA-SVR and CNN inversion models is also analyzed.\nOverall, the technique proposed in this article can be conﬁdently\napplied to SSH inversion based on TDS-1 data.",
+        "index_terms": [
+            "Convolution neural network (CNN)",
+            "Global Navigation Satellite System Reﬂectometry (GNSS-R)",
+            "principal component analysis combined with support vector regression (PCA-SVR)",
+            "sea surface height (SSH)"
+        ]
+    },
+    {
+        "title": "Mechanics and Control of Swimming: A Review",
+        "authors": [
+            "J. Edward Colgate",
+            "Member",
+            "IEEE",
+            "Kevin M. Lynch",
+            "Member",
+            "IEEE"
+        ],
+        "abstract": "The bodies and brains of ﬁsh have evolved to achieve\ncontrol objectives beyond the capabilities of current underwater\nvehicles. One route toward designing underwater vehicles with\nsimilar capabilities is to better understand ﬁsh physiological\ndesign and control strategies. This paper has two objectives:\n1) to review clues to artiﬁcial swimmer design taken from ﬁsh\nphysiology and 2) to formalize and review the control problems\nthat must be solved by a robot ﬁsh. The goal is to exploit ﬁsh loco-\nmotion principles to address the truly difﬁcult control challenges\nof station keeping under large perturbations, rapid maneuvering,\npower-efﬁcient endurance swimming, and trajectory planning\nand tracking. The design and control of biomimetic swimming\nmachines meeting these challenges will require state-of-the-art\nengineering and biology.",
+        "index_terms": [
+            "Controllability",
+            "motion primitives",
+            "robot ﬁsh de-  sign",
+            "station keeping",
+            "swimming modes",
+            "trajectory tracking"
+        ]
+    },
+    {
+        "title": "Modeling Propagation of Seismic Airgun Sounds and the Effects on Fish Behavior",
+        "authors": [
+            "Jens M. Hovem",
+            "Member",
+            "IEEE",
+            "Tron Vedul Tronstad",
+            "Hans Erik Karlsen",
+            "Svein Løkkeborg"
+        ],
+        "abstract": "High activity of seismic surveying in Norwegian waters\nhas caused concerns about the impact the acoustic noise from the\nseismic airguns may have on marine life. There is evidence that this\nnoise can cause reactions on the behavior of the ﬁsh resulting in\nreduced catches. To mitigate the problem and the conﬂict of interest\nbetween the ﬁshing industry and the seismic exploration interest, the\nNorwegian Petroleum Directorate (NPD) commissioned SINTEF\nInformation and Communication Technology (ICT, Trondheim,\nNorway) and the Department of Biology, University of Oslo (Oslo,\nNorway) to develop an acoustic–biological model to predict the\nimpact of seismic noise on the ﬁsh population. The ultimate goal\nis to develop an acoustic–biological model to use in the design and\nplanning of seismic surveys such that the disturbance to ﬁshing\ninterest is minimized. This acoustic module of the model is based\non ray theory and can deal with range-dependent bathymetry and\ndepth-dependent sound-speed proﬁles. The bottom is modeled as\na sedimentary ﬂuid layer over a solid elastic rock and the model\nrequires the thickness and seismoacoustic properties of the sedi-\nments layer and the rock with compressional speed, shear speed,\nand absorption. The model simulates the total sound ﬁeld, both in\nthe time domain and in the frequency domain, out to very large dis-\ntances. Calculated sound exposure levels are compared with startle\nresponse levels for cod. Preliminary conclusions indicate a required\ndistance in the range of 5–10 km, but dependent on the depth and\nthe season. In additions, under certain conditions, there will appear\nregions with hot spots where the sound level is signiﬁcantly higher\ndue to caustics and focusing of sound. Modeled results are compared\nwith results obtained from a joint seismoacoustic survey conducted\nin summer 2009 at Vesterålen-Lofoten area (Nordland VII). In this\nexperiment, signals were recorded at ﬁxed hydrophone positions as\nthe seismic vessel approached from a maximum distance of 30 km\ntoward the receiving positions. The same situation was modeled\nusing available geological and oceanographic information as input\nto the acoustic model. The agreement between the real and recorded\nsignals and the model results is good. This indicates that in the future\nacoustic–biological models may be used in the design and planning\nof seismic surveys such that the disturbance to ﬁshing is minimized.",
+        "index_terms": [
+            "Computer modeling",
+            "directivity",
+            "ﬁsh behavior",
+            "ray tracing",
+            "transmission loss (TL)",
+            "underwater acoustic propagation"
+        ]
+    },
+    {
+        "title": "Monitoring of Rain Water Storage in Forests With Satellite Radar",
+        "authors": [
+            "Joost J. M. de Jong",
+            "Student Member",
+            "IEEE",
+            "Wim Klaassen",
+            "Pieter J. C. Kuiper"
+        ],
+        "abstract": "The sensitivity of radar backscatter to the amount of\nintercepted rain in temperate deciduous forests is analyzed to de-\ntermine the feasibility of retrieval of this parameter from satellite\nradar data. A backscatter model is validated with X-band radar\nmeasurements of a single tree exposed to rain. A good agreement\nbetween simulation and measurements is observed and this demon-\nstrates the ability of radar to measure the amount of intercepted\nrain. The backscatter model is next applied to simulate different\nsatellite radar configurations. To account for forest variability, the\nbackscatter difference between a wet and dry forest canopy is cal-\nculated for four deciduous tree species, above a wet and a dry soil.\nOn average, the simulated backscatter of a wet forest canopy is\n1 dB higher than the backscatter of a dry forest canopy at co-po-\nlarized L-band and 2 dB at co-polarized C and X-band. The sim-\nulated sensitivity is in agreement with observations. It is argued\nthat current satellites can retrieve the amount of intercepted rain\nat best with a reliability of 50%, due to the variability in soil mois-\nture, species composition and system noise. We expect that the re-\nliability will improve with the launch of the next generation radar\nsatellites. The results of this analysis may also be used to assess the\ninfluence of rain, fog or dew upon other radar applications for tem-\nperate deciduous forests.",
+        "index_terms": [
+            "Dew",
+            "fog",
+            "forest",
+            "interception",
+            "radar",
+            "rain"
+        ]
+    },
+    {
+        "title": "Morphology and Experimental Hydrodynamics of Fish Fin Control Surfaces",
+        "authors": [
+            "George V. Lauder",
+            "Eliot G. Drucker"
+        ],
+        "abstract": "Over the past 520 million years, the process of evo-\nlution has produced a diversity of nearly 25 000 species of ﬁsh.\nThis diversity includes thousands of different ﬁn designs which are\nlargely the product of natural selection for locomotor performance.\nFish ﬁns can be grouped into two major categories: median and\npaired ﬁns. Fins are typically supported at their base by a series\nof segmentally arranged bony or cartilaginous elements, and ﬁsh\nhave extensive muscular control over ﬁn conformation.\n\nRecent experimental hydrodynamic investigation of ﬁsh ﬁn func-\ntion in a diversity of freely swimming ﬁsh (including sharks, stur-\ngeon, trout, sunﬁsh, and surfperch) has demonstrated the role of\nﬁns in propulsion and maneuvering. Fish pectoral ﬁns generate\neither separate or linked vortex rings during propulsion, and the\nlateral forces generated by pectoral ﬁns are of similar magnitudes\nto thrust force during slow swimming. Yawing maneuvers involve\ndifferentiation of hydrodynamic function between left and right\nﬁns via vortex ring reorientation. Low-aspect ratio pectoral ﬁns in\nsharks function to alter body pitch and induce vertical maneuvers\nthrough conformational changes of the ﬁn trailing edge.\n\nThe dorsal ﬁn of ﬁsh displays a diversity of hydrodynamic\nfunction, from a discrete thrust-generating propulsor acting\nindependently from the body, to a stabilizer generating only side\nforces. Dorsal ﬁns play an active role in generating off-axis forces\nduring maneuvering. Locomotor efﬁciency may be enhanced when\nthe caudal ﬁn intercepts the dorsal ﬁn wake. The caudal ﬁn of\nﬁsh moves in a complex three-dimensional manner and evidence\nfor thrust vectoring of caudal ﬁn forces is presented for sturgeon\nwhich appear to have active control of the angle of vortices shed\nfrom the tail. Fish are designed to be unstable and are constantly\nusing their control surfaces to generate opposing and balancing\nforces in addition to thrust.\n\nLessons from ﬁsh for autonomous underwater vehicle (AUV)\ndesign include 1) location of multiple control surfaces distributed\nwidely about the center of mass, 2) design of control surfaces that\nhave a high degree of three-dimensional motion through a ﬂexible\narticulation with the body, 3) the ability to modulate ﬁn surface\nconformation, and 4) the simultaneous use of numerous control\nsurfaces including locating some ﬁn elements in the downstream\nwake generated by other ﬁns.\n\nThe ability to manufacture an AUV that takes advantage of these\ndesign features is currently limited by the nature of available ma-\nterials and mechanical drive trains. But future developments in\npolymer artiﬁcial muscle technology will provide a new approach\nto propulsor design that will permit construction of biomimetic\npropulsors with conformational and articulational ﬂexibility sim-\nilar to that of ﬁsh ﬁns.",
+        "index_terms": [
+            "Fin",
+            "ﬁsh",
+            "hydrodynamics",
+            "locomotion",
+            "particle  image velocimetry"
+        ]
+    },
+    {
+        "title": "Morse Code Application for Wireless Environmental Control Systems for Severely Disabled Individuals",
+        "authors": [
+            "Cheng-Hong Yang",
+            "Li-Yeh Chuang",
+            "Cheng-Huei Yang",
+            "Ching-Hsing Luo"
+        ],
+        "abstract": "Some physically-disabled people with neuromus-\ncular diseases such as amyotrophic lateral sclerosis, multiple\nsclerosis, muscular dystrophy, or other conditions that hinder\ntheir ability to write, type, and speak, require an assistive tool for\npurposes of augmentative and alternative communication in their\ndaily lives. In this paper, we designed and implemented a wireless\nenvironmental control system using Morse code as an adapted\naccess communication tool. The proposed system includes four\nparts: input-control module; recognition module; wireless-control\nmodule; and electronic-equipment-control module. The signals\nare transmitted using adopted radio frequencies, which permits\nlong distance transmission without space limitation. Experimental\nresults revealed that three participants with physical handicaps\nwere able to gain access to electronic facilities after two months’\npractice with the new system.",
+        "index_terms": [
+            "Adaptive signal processing",
+            "assistive technology,  environmental control",
+            "Morse code"
+        ]
+    },
+    {
+        "title": "Mutagenic Primer Design for Mismatch PCR-RFLP SNP Genotyping Using a Genetic Algorithm",
+        "authors": [
+            "Cheng-Hong Yang",
+            "Yu-Huei Cheng",
+            "Cheng-Huei Yang",
+            "Li-Yeh Chuang"
+        ],
+        "abstract": "Polymerase chain reaction-restriction fragment length polymorphism (PCR-RFLP) is useful in small-scale basic research\nstudies of complex genetic diseases that are associated with single nucleotide polymorphism (SNP). Designing a feasible primer pair is\nan important work before performing PCR-RFLP for SNP genotyping. However, in many cases, restriction enzymes to discriminate the\ntarget SNP resulting in the primer design is not applicable. A mutagenic primer is introduced to solve this problem. GA-based Mismatch\nPCR-RFLP Primers Design (GAMPD) provides a method that uses a genetic algorithm to search for optimal mutagenic primers and\navailable restriction enzymes from REBASE. In order to improve the efficiency of the proposed method, a mutagenic matrix is\nemployed to judge whether a hypothetical mutagenic primer can discriminate the target SNP by digestion with available restriction\nenzymes. The available restriction enzymes for the target SNP are mined by the updated core of SNP-RFLPing. GAMPD has been\nused to simulate the SNPs in the human SLC6A4 gene under different parameter settings and compared with SNP Cutter for mismatch\nPCR-RFLP primer design. The in silico simulation of the proposed GAMPD program showed that it designs mismatch PCR-RFLP\nprimers. The GAMPD program is implemented in JAVA and is freely available at http://bio.kuas.edu.tw/gampd/.",
+        "index_terms": [
+            "Polymerase chain reaction (PCR)",
+            "restriction fragment length polymorphism (RFLP)",
+            "single nucleotide polymorphism (SNP)",
+            "mutagenic primer design",
+            "genetic algorithm (GA)"
+        ]
+    },
+    {
+        "title": "Ocean Color Continuity From VIIRS Measurements Over Tampa Bay",
+        "authors": [
+            "Chuanmin Hu",
+            "Chengfeng Le"
+        ],
+        "abstract": "Ocean color continuity calls for consistent observa-\ntions from multiple sensors in order to establish a seamless data\nrecord to address earth science questions. Currently, both Moder-\nate Resolution Imaging Spectroradiometer (MODIS) instruments\non the Terra and Aqua satellites are being operated well beyond\ntheir designed ﬁve-year mission life, and they have shown signs\nof sensor degradation. It is thus urgent to evaluate whether the\nmost recently launched Visible Infrared Imager Radiometer Suite\n(VIIRS) instrument (2011 to present) can provide consistent ob-\nservations should MODIS instruments stop functioning. In this\nstudy, the consistency between MODIS/Aqua and VIIRS mea-\nsurements over the Tampa Bay estuary (∼1000 km2) is assessed\nfor remote sensing reﬂectance (Rrs, sr−1), chlorophyll-a concen-\ntrations (Chla, mg · m−3), and absorption coefﬁcient of colored\ndissolved organic matter (ag(443), m−1). While Rrs was derived\nas a standard National Aeronautics and Space Administration\nproduct from the SeaDAS software package (reprocessing version\nR2013.0), Chla and ag(443) were estimated using the recently de-\nveloped regional algorithms for Tampa Bay. Time-series analysis\nand statistics both showed that the two sensors provided consistent\nmeasurements for most products evaluated, with unbiased mean\npercentage differences of < 25% and mean annual biases within\n−9% (except for one of the eight cases) for large dynamic ranges\nin Chla (1.0–20 mg · m−3) and ag(443) (0.1–1.5 m−1) in all four\nbay segments. These estimates are comparable or better than those\nderived from satellite—in situ comparisons, suggesting that VIIRS\nwill provide observations consistent with MODIS, ensuring ocean\ncolor continuity and seamless data records for Tampa Bay. Such\nobservations are crucial in establishing a long-term satellite-based\nwater quality decision matrix for Tampa Bay.",
+        "index_terms": [
+            "Continuity",
+            "Moderate Resolution Imaging Spec- troradiometer (MODIS)",
+            "Sea-viewing Wide Field-of-view Sensor (SeaWiFS)",
+            "Tampa Bay",
+            "Visible Infrared Imager Radiometer Suite (VIIRS)",
+            "water quality"
+        ]
+    },
+    {
+        "title": "Online Monitoring of Crude Oil Biodegradation at Elevated Pressures",
+        "authors": [
+            "Ana Gabriela Valladares Juárez",
+            "Hari Spandana Kadimesetty",
+            "Daniela E. Achatz",
+            "Martina Schedler",
+            "Rudolf Müller"
+        ],
+        "abstract": "In order to study the biodegradation of crude oil\nspilled in the deep sea, incubations of deep-sea-bed sediments and\ncrude oil were carried out in a high-pressure reactor, but mon-\nitoring the biodegradation of oil at high pressure is limited by\nsampling because the volatile crude oil components are partly lost\nduring depressurization. Moreover, the seawater-oil-sediments\nmultiphase system cannot be sampled representatively. The aer-\nobic oil biodegradation can also be monitored indirectly by mea-\nsuring the oxygen consumed and the carbon dioxide produced. In\nthis paper, the O2 and CO2 concentrations were monitored in\na reactor with transparent windows using chemical-optical sen-\nsors. To compare the effect of pressure on the biodegradation of\noil, two pressure regimes were compared: atmospheric pressure\n(1 bar) and 150 bar, corresponding to 1500 m depth of the Deepwa-\nter Horizon’s well at the Gulf of Mexico. Only in the experiments\nwhere deep-sea sediments were added, the oxygen concentration\ndecreased while the carbon dioxide and the bacterial concentra-\ntion increased. In experiments where no sediment was added, the\nvalues for the oxygen and carbon dioxide remained constant. This\nproved that deep-sea sediments contained microorganisms, which\ncould degrade crude oil at both 1 and 150 bar. To our knowl-\nedge, this is the ﬁrst time where O2 and CO2 were monitored\nonline during crude oil biodegradation at high pressure in the\nlaboratory.",
+        "index_terms": [
+            "Biodegradation",
+            "cells (biology)",
+            "chemical sensors,  image analysis",
+            "monitoring",
+            "oil pollution",
+            "sea ﬂoor"
+        ]
+    },
+    {
+        "title": "On the Application of AERONET-OC Multispectral Data to Assess Satellite-Derived Hyperspectral Rrs",
+        "authors": [
+            "Marco Talone",
+            "Senior Member",
+            "IEEE",
+            "Giuseppe Zibordi",
+            "Jaime Pitarch"
+        ],
+        "abstract": "The potential for applying in situ multispectral Rrs\ndata from the Ocean Color component of the Aerosol Robotic\nNetwork (AERONET-OC)\nto validate satellite-derived ocean\ncolor hyperspectral Rrs products was investigated in the 400–700\nnm interval. The analysis was performed using a comprehensive\ndataset of simulated hyperspectral Rrs in combination with an\nalgorithm designed to reconstruct hyperspectral Rrs from multi-\nspectral ones. Results were assessed using in situ hyperspectral\nRrs representative of diverse water types. Excluding waters domi-\nnated by a high concentration of colored dissolved organic matter,\nresults indicate the capability of determining hyperspectral Rrs\nfrom AERONET-OC multispectral data with mean relative and\nabsolute uncertainties generally lower than 2% and 5×10−5 sr−1,\nrespectively, at a number of the key center-wavelengths of the\nOcean Color Instrument (OCI) onboard the Plankton, Aerosol,\nCloud, ocean Ecosystem (PACE) spacecraft.",
+        "index_terms": [
+            "Ocean color",
+            "remote sensing",
+            "validation"
+        ]
+    },
+    {
+        "title": "On the Classification of a Small Imbalanced Cytogenetic Image Database",
+        "authors": [
+            "Boaz Lerner",
+            "Josepha Yeshaya",
+            "Lev Koushnir"
+        ],
+        "abstract": "Solving a multiclass classification task using a small imbalanced database of patterns of high dimension is difficult due to\nthe curse-of-dimensionality and the bias of the training toward the majority classes. Such a problem has arisen while diagnosing\ngenetic abnormalities by classifying a small database of fluorescence in situ hybridization signals of types having different frequencies\nof occurrence. We propose and experimentally study using the cytogenetic domain two solutions to the problem. The first is\nhierarchical decomposition of the classification task, where each hierarchy level is designed to tackle a simpler problem which is\nrepresented by classes that are approximately balanced. The second solution is balancing the data by up-sampling the minority\nclasses accompanied by dimensionality reduction. Implemented by the naive Bayesian classifier or the multilayer perceptron neural\nnetwork, both solutions have diminished the problem and contributed to accuracy improvement. In addition, the experiments suggest\nthat coping with the smallness of the data is more beneficial than dealing with its imbalance.",
+        "index_terms": [
+            "Classification",
+            "dimensionality reduction",
+            "genetic diagnosis",
+            "imbalanced data",
+            "multilayer perceptron (MLP)",
+            "naive Bayesian classifier (NBC)",
+            "small sample size"
+        ]
+    },
+    {
+        "title": "On the Integration of Healthcare Emergency Systems in Europe: The WETS Project Case Study",
+        "authors": [
+            "Francesco Beltrame",
+            "Member",
+            "IEEE",
+            "Piergiulio Maryni",
+            "Member",
+            "IEEE",
+            "Giorgio Orsi"
+        ],
+        "abstract": "The European Union (EU) is characterized by a large\nnumber of different emergency healthcare (EHC) systems. In this\nsituation, a common policy for healthcare emergency handling is\nlargely prevented and is a cause of an increase of the costs asso-\nciated with such systems all over Europe. There is, hence, a need\nfor a homogenization and integration of healthcare emergency\nsystems in Europe. This turns out to be difﬁcult because of the\nethical, political, legal, and technological differences and pecu-\nliarities of the European scenario and the large investments that\nwould be needed in this sector. The process of integration passes\nthrough the identiﬁcation of the main functionalities—driven\nby the user needs in their real life conditions—along with the\ntechnologies that are best ﬁtted for supporting them. In this\npaper, several aspects related to these problems are analyzed and\na real case study, drawn from the Project “Worldwide Emergency\nTelemedicine Services” (WETS), supported by the European\nCommission (DG-XIII), is presented. Within WETS, several pilot\nsites (in Italy, Spain, Greece, Denmark, and Iceland) consider\ndifferent aspects of the integration of healthcare emergency\nsystems with particular focus on the sharing of solutions that\n“traditionally” belong to different environments (i.e., land, air,\nand sea). The involvement of important hospitals, ship companies,\nairlines, and emergency health institutions allows us to devote a\nlarge part of this two-year project (1998–1999) to validate and\ndemonstrate the results of the development phase in real-life\nconditions. Some more concrete details are given for the Italian\npilot site, where the authors operate.",
+        "index_terms": [
+            "Biomedical engineering",
+            "emergency services, healthcare telematics",
+            "information technology",
+            "medical services, multimedia systems",
+            "telemedicine"
+        ]
+    },
+    {
+        "title": "Operon Prediction Using Chaos Embedded Particle Swarm Optimization",
+        "authors": [
+            "Li-Yeh Chuang",
+            "Cheng-Huei Yang",
+            "Jui-Hung Tsai",
+            "Cheng-Hong Yang"
+        ],
+        "abstract": "Operons contain valuable information for drug design and determining protein functions. Genes within an operon are co-\ntranscribed to a single-strand mRNA and must be coregulated. The identification of operons is, thus, critical for a detailed\nunderstanding of the gene regulations. However, currently used experimental methods for operon detection are generally difficult to\nimplement and time consuming. In this paper, we propose a chaotic binary particle swarm optimization (CBPSO) to predict operons in\nbacterial genomes. The intergenic distance, participation in the same metabolic pathway and the cluster of orthologous groups (COG)\nproperties of the Escherichia coli genome are used to design a fitness function. Furthermore, the Bacillus subtilis, Pseudomonas\naeruginosa PA01, Staphylococcus aureus and Mycobacterium tuberculosis genomes are tested and evaluated for accuracy,\nsensitivity, and specificity. The computational results indicate that the proposed method works effectively in terms of enhancing the\nperformance of the operon prediction. The proposed method also achieved a good balance between sensitivity and specificity when\ncompared to methods from the literature.",
+        "index_terms": [
+            "Operon",
+            "particle swarm optimization",
+            "chaos  Ç  1 INTRODUCTION  thus",
+            "critical  VALUABLE information for drug design and protein  functions can be acquired from the operons of bacterial genomes [1]"
+        ]
+    },
+    {
+        "title": "Prediction of Oil Spill Trajectory on the Ocean Surface Using Mathematical Modeling",
+        "authors": [
+            "Anagha S. Dhavalikar",
+            "Student Member",
+            "IEEE",
+            "Pranali C. Choudhari"
+        ],
+        "abstract": "A simplistic mathematical model based on the law of\nmotion for predicting oil spill trajectory on the ocean surface uti-\nlizing random walk technique is proposed in this article. Validation\nof the proposed model is performed by comparing results with the\nGeneral NOAA Operational Modeling Environment model and the\navailable set of periodic Sentinel-1 synthetic aperture radar (SAR)\nimages of the contingency location (Corsica oil spill incident in the\nMediterranean Sea). SAR images are processed for speckle noise re-\nmoval, dark spot detection, feature extraction, and classiﬁcation of\ndark spots as oil spills and look-alikes for suitability of comparison.\nThe accuracy of prediction is evaluated using centroid skill score\nmetric and is compared with that of the prediction results from\nMEDSLIK-II model. The results of proposed model are found to\nbe in good agreement with available SAR images. The simulation\nalso showed that using an hourly wind and ocean current data\non the study region, more accurate prediction of the trajectory is\npossible.",
+        "index_terms": [
+            "Centroid skill score (CSS)",
+            "ocean wind and current",
+            "oil spill",
+            "random walk procedure",
+            "synthetic aperture radar (SAR)",
+            "trajectory prediction"
+        ]
+    },
+    {
+        "title": "Principles of Actuation in the Muscular System of Fish",
+        "authors": [
+            "Lawrence C. Rome"
+        ],
+        "abstract": "Over the last 20 years, there have been tremendous\nintellectual and technological advancements in the ﬁelds of muscle\nbiophysics, biomechanics, and musculoskeletal modeling. These\nadvances have fueled a revolution in integrative muscle physiology.\nWhereas 20 years ago the notion of understanding the function\nand design of a muscular system from the molecular to the whole\nanimal level was a dream, it is now becoming a reality. Fish\nrepresent an exceptional model for understanding the function\nand design of the muscular system of vertebrates. There are\ntwo fundamental reasons for this preeminence. First, the unique\nanatomical separation of the different muscle ﬁber types has made\nﬁsh the most tractable model (i.e., the use and properties of the\ndifferent muscle ﬁber types can be most easily studied). Second,\nﬁsh utilize the broadest range of movement than any vertebrate.\nThis diversity of movement imposes a wide array of challenges\non the muscular system of ﬁsh and at the same time enables\nphysiologists/biomechanists to observe how these challenges have\nbeen met. These features have permitted us to extract a number\nof general principles of actuation and control that have evolved\nover millions of years. Rather than summarizing the considerable\nliterature on ﬁsh muscle function and ﬁsh swimming, this paper\nwill focus narrowly on a relatively few studies that permit us to\nextract principles of actuation. These principles may in turn pro-\nvide some insights into the design and construction of autonomous\nunderwater vehicles (AUVs).",
+        "index_terms": [
+            "Fish",
+            "muscle design",
+            "swimming"
+        ]
+    },
+    {
+        "title": "Relief for Maritime Medical Emergencies through Telematics",
+        "authors": [
+            "George Anogianakis",
+            "Stavroula Maglavera",
+            "A. Pomportsis"
+        ],
+        "abstract": "MERMAID is a European Union (EU)-ﬁnanced mar-\nitime telemedicine project with global reach and 24-h multilingual\ncapability, so as to serve multinational crews working in the\nisolation of the world’s oceans. It provides a model for the pro-\nvision of healthcare services based on the electronic transmission\nof medical information via ISDN-based video conferencing. This\nmodel is not limited to medical diagnostics, but it encompasses\nall cases in which the actual delivery of healthcare services\ninvolves a patient who is not located where the provider is.\nIts implementation requires the commissioning of an extensive\ntelecommunications infrastructure that includes both satellite\ntransmission for ship to shore communication and an extensive\nground-based network for summoning expert medical help from\naround the world so as to meet the project’s multilinguality\nrequirements and, therefore, the exploration of a number of\nsolutions. In fact, all categories of telemedical applications (audio\nand video conferencing, multimedia communications, ﬂat ﬁle and\nimage transfer with low-, medium-, and high-bandwidth data\nrequirements) are considered, while the full range of network\nchoices (digital land lines, cellular/wireless, satellite, and broad-\nband) are being tested in terms of cost/performance tradeoffs that\nare inherent to them and the developmental stage each of these\noptions occupies in their lifecycle. Finally, out of that, MERMAID\nutilizes advanced land-based line transmission technologies to aid\nthe remote patient by making available the specialist care that is\nbest suited in the particular case.",
+        "index_terms": [
+            "Emergency telemedicine",
+            "INMARSAT",
+            "mari-  time",
+            "medical guide",
+            "multimedia"
+        ]
+    },
+    {
+        "title": "Retrieval of Ocean Surface Radial Velocities With RADARSAT-2 Along-Track Interferometry",
+        "authors": [
+            "Mamoon Rashid",
+            "Member",
+            "IEEE",
+            "Christoph H. Gierull",
+            "Senior Member",
+            "IEEE"
+        ],
+        "abstract": "This article provides a detailed presentation of the\ndual-aperture synthetic aperture radar (SAR) data processing\nscheme for the retrieval of ocean surface radial velocities.This\nscheme includes processing of raw SAR data, coregistration\nof along-track interferometric samples, magnitude and absolute\nphase calibration, and coherent averaging (multilooking). Several\napproaches for the absolute phase calibration are provided and\ncompared. Some of the attempted approaches can potentially be\nused over open ocean (i.e., in scenes that do not contain any land).\nMain goal of attempting different approaches for the absolute\nphase calibration was to determine their relative performance, and\ndetermine the potential feasibility of some approaches over open\nocean. The data processing scheme is applied to a RADARSAT-2\ndual-channel MODEX-1 acquisition over a section of the Florida\nCurrent. For the dataset used in this study, different absolute\nphase calibration methods yielded similar radial velocity estimates,\nwith relative mean and RMS differences within approximately\n0.1 m/s. Estimates from SAR ATI were also compared to estimates\nfrom NASA’s OSCAR dataset. Comparison of visually identiﬁed\ncurrents showed close spatial overlap between estimates from the\ntwo sources. The RMS difference was found to be approximately\n0.30 m/s. This difference can be attributed to the physical and\ntemporal differences between the estimates.",
+        "index_terms": [
+            "Along-track interferometry (ATI)",
+            "calibration, detection",
+            "estimation",
+            "radial velocity",
+            "surface currents",
+            "synthetic aperture radar (SAR)"
+        ]
+    },
+    {
+        "title": "RMSCNN: A Random Multi-Scale Convolutional Neural Network for Marine Microbial Bacteriocins Identiﬁcation",
+        "authors": [
+            "Zhen Cui",
+            "Zhan-Heng Chen",
+            "Qin-Hu Zhang",
+            "Valeriya Gribova",
+            "Vladimir Fedorovich Filaretov",
+            "De-Shuang Huang"
+        ],
+        "abstract": "The abuse of traditional antibiotics has led to an increase in the resistance of bacteria and viruses. Similar to the function of\nantibacterial peptides, bacteriocins are more common as a kind of peptides produced by bacteria that have bactericidal or bacterial\neffects. More importantly, the marine environment is one of the most abundant resources for extracting marine microbial bacteriocins\n(MMBs). Identifying bacteriocins from marine microorganisms is a common goal for the development of new drugs. Effective use of\nMMBs will greatly alleviate the current antibiotic abuse problem. In this work, deep learning is used to identify meaningful MMBs. We\npropose a random multi-scale convolutional neural network method. In the scale setting, we set a random model to update the scale\nvalue randomly. The scale selection method can reduce the contingency caused by artiﬁcial setting under certain conditions, thereby\nmaking the method more extensive. The results show that the classiﬁcation performance of the proposed method is better than the\nstate-of-the-art classiﬁcation methods. In addition, some potential MMBs are predicted, and some different sequence analyses are\nperformed on these candidates. It is worth mentioning that after sequence analysis, the HNH endonucleases of different marine\nbacteria are considered as potential bacteriocins.",
+        "index_terms": [
+            "Marine microbial bacteriocins",
+            "random",
+            "convolutional neural network  Ç  1 INTRODUCTION  IN recent years",
+            "antimicrobial resistance has been increasing  around the world",
+            "which has caused the traditional use of antibiotics to face huge challenges"
+        ]
+    },
+    {
+        "title": "RoboScallop: A Bivalve Inspired Swimming Robot",
+        "authors": [
+            "Matthew A. Robertson",
+            "Filip Efremov",
+            "Jamie Paik"
+        ],
+        "abstract": "Underwater swimming robots permit remote access\nto over 70% of the Earth’s surface that is covered in water for a\nvariety of scientiﬁc, environmental, tactical, or industrial purposes.\nMany practical applications for robots in this setting include sens-\ning, monitoring, exploration, reconnaissance, or inspection tasks.\nIn the interest of expanding this activity and opportunity within\naquatic environments, this letter describes the development of a\nswimming robot characterized by simple, robust, and scalable de-\nsign. The robot, named RoboScallop, is inspired by the locomotion\nof bivalve scallops, utilizing two articulating rigid shell compo-\nnents and a soft elastic membrane to produce water jet propulsion.\nA single-DoF, reciprocating crank mechanism enclosed within the\nshell housing of the robot is used to generate pulsating thrust, and\nthe performance of this novel swimming method is evaluated by\ncharacterization of the robot jet force and swimming speed. This is\nthe ﬁrst time jet propulsion is demonstrated for a robot swimming\nin normal, Newtonian ﬂuid using a bivalve morphology. We found\nthe metrics of the robot to be comparable to its biological counter-\npart, but free from metabolic limitations which prevent sustained\nfree swimming in living species. Leveraging this locomotion prin-\nciple may provide unique beneﬁts over other existing underwater\npropulsion techniques, including robustness, scalability, resistance\nto entanglement, and possible implicit water treatment capabilities,\nto drive the further development of a new class of self-contained,\nhybrid-stiffness underwater robots.",
+        "index_terms": [
+            "Biologically-inspired robots",
+            "marine robotics",
+            "soft  robot materials and design"
+        ]
+    },
+    {
+        "title": "Robust Principal Component Analysis Based On Hypergraph Regularization for Sample Clustering and Co-Characteristic Gene Selection",
+        "authors": [
+            "Ying-Lian Gao",
+            "Ming-Juan Wu",
+            "Jin-Xing Liu",
+            "Chun-Hou Zheng",
+            "Juan Wang"
+        ],
+        "abstract": "Extracting genes involved in cancer lesions from gene expression data is critical for cancer research and drug\ndevelopment. The method of feature selection has attracted much attention in the ﬁeld of bioinformatics. Principal Component Analysis\n(PCA) is a widely used method for learning low-dimensional representation. Some variants of PCA have been proposed to improve the\nrobustness and sparsity of the algorithm. However, the existing methods ignore the high-order relationships between data. In this\npaper, a new model named Robust Principal Component Analysis via Hypergraph Regularization (HRPCA) is proposed. In detail,\nHRPCA utilizes L2,1-norm to reduce the effect of outliers and make data sufﬁciently row-sparse. And the hypergraph regularization is\nintroduced to consider the complex relationship among data. Important information hidden in the data are mined, and this method\nensures the accuracy of the resulting data relationship information. Extensive experiments on multi-view biological data demonstrate\nthat the feasible and effective of the proposed approach.",
+        "index_terms": [
+            "Robust principal component analysis",
+            "sample clustering",
+            "co-characteristic gene selection",
+            "L2,1-norm",
+            "hypergraph regularization  Ç  1 INTRODUCTION  IN modern molecular biology",
+            "the study of cancer has  become increasingly widespread"
+        ]
+    },
+    {
+        "title": "Seasonal Impact of Adjacency Effects on Ocean Color Radiometry at the AAOT Validation Site",
+        "authors": [
+            "Barbara Bulgarelli",
+            "Giuseppe Zibordi"
+        ],
+        "abstract": "The seasonal impact of adjacency effects (AE) on\nsatellite ocean color data at visible and near-infrared (NIR)\nwavelengths by the Sea-Viewing Wide Field-of-View Sensor, the\nModerate Resolution Imaging Spectroradiometer onboard the\nAqua platform (MODISA), the Medium Resolution Imaging\nSpectrometer, the Ocean and Land Color Instrument, the Opera-\ntional Land Imager (OLI), and the MultiSpectral Imagery (MSI)\nwas theoretically evaluated at a validation site in the northern\nAdriatic Sea. The analysis made use of comprehensive simula-\ntions accounting for multiple scattering, sea surface roughness,\nsensor viewing geometry, actual coastline, typical and extreme\natmospheric conditions, and the seasonal variability of solar\nland and water optical properties. Results,\nillumination and,\nobtained by relying on the normalization of the radiometric\nsensitivity of each sensor to the same input radiance, show\nthat\nimpacts of AE considerably\nvary among sensors. AE signiﬁcantly exceed the radiometric\nsensitivity of MSI at its sole blue band in winter, whereas they\nsigniﬁcantly outdo the noise threshold of OLI and MODISA high-\nresolution data exclusively in the NIR in summer. Conversely,\nfor all other sensors and for MODISA low-resolution data, AE\nare particularly signiﬁcant at NIR bands between March and\nOctober and at the blue–green bands in winter.\n\nthe spectral and seasonal",
+        "index_terms": [
+            "Adjacency effects (AE)",
+            "ocean colors",
+            "optical  remote sensing"
+        ]
+    },
+    {
+        "title": "Sea Surface Temperatures Derived From COCTS Onboard the HY-1C Satellite",
+        "authors": [
+            "Xiaomin Ye",
+            "Jianqiang Liu",
+            "Mingsen Lin",
+            "Member",
+            "IEEE",
+            "Jing Ding",
+            "Bin Zou",
+            "Qingjun Song"
+        ],
+        "abstract": "As one of the key payloads onboard the HY-1C satel-\nlite, the Chinese ocean color and temperature scanner (COCTS)\nwas designed for global sea surface temperature (SST) and ocean\ncolor detection. In this study, a nonlinear SST algorithm (NLSST)\nis applied to derive SSTs from the brightness temperatures (BTs)\nof the two COCTS thermal infrared bands at 10.8 and 12.0 µm.\nThe SST retrieval results from the multichannel SST algorithm\n(MCSST) are used as the ﬁrst guess for the input of the NLSST\nalgorithm. The coefﬁcients of both the MCSST and NLSST algo-\nrithms are regressed from the matchup datasets of the COCTS BT\nobservations and the measurements from the in situ quality monitor\nsystem (iQuam), which were collected from September 10 to De-\ncember 31, 2018. The retrieval SSTs from January 1, 2019 to March\n31, 2020 are evaluated by the in situ measurements from iQuam\nwith root mean square errors of 0.84 °C for daytime and 0.97 °C\nfor nighttime and robust standard deviations (RSDs) of 0.73 °C\nfor daytime and 0.72 °C for nighttime. Daily gridded retrieval\nSSTs from September 10, 2018 to March 31, 2020 are compared\nwith SSTs from moderate-resolution imaging spectroradiometer\n(MODIS) onboard Terra satellite. The cross comparison RSDs are\n0.56 ± 0.05 °C for daytime and 0.67 ± 0.05 °C for nighttime.",
+        "index_terms": [
+            "Chinese ocean color and temperature scanner (COCTS)",
+            "HY-1C satellite",
+            "nonlinear SST algorithm (NLSST)",
+            "sea surface temperature (SST)"
+        ]
+    },
+    {
+        "title": "Semideﬁnite Tests for Latent Causal Structures",
+        "authors": [
+            "Aditya Kela",
+            "Kai von Prillwitz",
+            "Johan Åberg",
+            "Rafael Chaves",
+            "David Gross"
+        ],
+        "abstract": "Testing whether a probability distribution is com-\npatible with a given Bayesian network is a fundamental task\nin the ﬁeld of causal inference, where Bayesian networks model\ncausal relations. Here we consider the class of causal structures\nwhere all correlations between observed quantities are solely\ndue to the inﬂuence from latent variables. We show that each\nmodel of this type imposes a certain signature on the observable\ncovariance matrix in terms of a particular decomposition into\npositive semideﬁnite components. This signature, and thus the\nunderlying hypothetical\nlatent structure, can be tested in a\ncomputationally efﬁcient manner via semideﬁnite programming.\nThis stands in stark contrast with the algebraic geometric tools\nrequired if the full observable probability distribution is taken\ninto account. The semideﬁnite test is compared with tests based\non entropic inequalities.",
+        "index_terms": [
+            "Cause effect analysis"
+        ]
+    },
+    {
+        "title": "Sensitivity of Delay Doppler Map in Spaceborne GNSS-R to Geophysical Variables of the Ocean",
+        "authors": [
+            "Adriano Camps",
+            "Fellow",
+            "IEEE",
+            "Hyuk Park",
+            "Senior Member",
+            "IEEE"
+        ],
+        "abstract": "Global Navigation Satellite Systems reﬂectometry\n(GNSS-R) is a particular case of a multistatic radar in which the\nsignals transmitted by navigation satellites are the signals of op-\nportunity. These signals can be processed as a radar scatterometer,\nas a radar altimeter, or as an unfocused synthetic aperture radar.\nGNSS-R has shown its potential to infer numerous geophysical\nvariables: over land soil moisture, vegetation height, detection of\nfreeze-thaw state, etc., map sea ice extent and type …, and over the\nocean wind speed and direction, signiﬁcant wave height, altimetric\nmeasurements or even more recently NASA has released a marine\nplastics litter product, and some also claim that sea surface salinity\n(SSS) can be inferred. In addition, retrieval algorithms neglect some\nof the variations of the delay Doppler map (DDM) that are linked\nto the observation geometry, i.e., look angle with respect to the\nspeed vectors of the transmitter and receiver. All these different\neffects impact the DDM peak value and its shape, and may affect\nthe retrieval of geophysical parameters, and ultimately the data\ninterpretation. In this study, the following factors impacting the\nDDM peak value are studied: the observation geometry, the sea\nsurface temperature, and SSS, the 10 m height wind speed (U10)\nand direction (WD), the presence of foam, the sea development\nstate, the presence of swell, currents, rain, and the presence of oil\nslicks perturbing the sea surface roughness. This illustrates the\ncomplexity of the challenges presented when trying to retrieve some\nof these variables, the required corrections, and their accuracy.",
+        "index_terms": [
+            "Delay doppler map",
+            "geophysical variables",
+            "global navigation satellite systems reﬂectometry (GNSS-R)",
+            "ocean, sensitivity"
+        ]
+    },
+    {
+        "title": "Separation of Incident and Reﬂected Waves by Means of a Wave Radar System",
+        "authors": [
+            "Francesco Seraﬁno",
+            "Simone Bonamano",
+            "Francesco Paladini de Mendoza",
+            "Marco Marcelli"
+        ],
+        "abstract": "This letter describes the wave reﬂection induced by\nthe breakwater of the Port of Civitavecchia in the Tyrrhenian\nSea, Italy, using a X-band wave radar. The wave radar system\ndetected a complex structure of reﬂected waves that is composed\nof three spectral components and was generated by the complex\nstructure of the breakwater. By applying a ﬁlter in the ω-k\ndomain, it was possible to ﬁlter out the component of the incident\nwaves to analyze the total component of reﬂected waves. Applying\nspeciﬁc ﬁlters also made it possible to separate the spectral\ncomponents of the single reﬂected waves. Bandpass ﬁlters were\nbuilt to select each spectral component based on only the direction\nof the incident and reﬂected wave components. Starting from the\nseparated spectral components, the reﬂection coefﬁcients related\nto the measurement campaign were estimated and compared with\nthe theoretical coefﬁcients. The results conﬁrm the potential of\na radar system to resolve a complex sea state and provide a\nsynoptic analysis of wave propagation processes over a wide\nmeasurement domain. Furthermore, this letter opens the way\nfor new studies on the interaction between incident waves and\ncoastal infrastructure.",
+        "index_terms": [
+            "Radar",
+            "reﬂection",
+            "sea state",
+            "sea waves",
+            "waves"
+        ]
+    },
+    {
+        "title": "Sonar Point Cloud Processing to Identify Sea Turtles by Pattern Analysis",
+        "authors": [
+            "Dror Kipnis",
+            "Yaniv Levy",
+            "Roee Diamant",
+            "Senior Member",
+            "IEEE"
+        ],
+        "abstract": "Abundant in coastal areas, sea turtles are affected\nby high-intensity acoustic anthropogenic sounds. In this article,\nwe offer a pattern-analysis-based detection approach to serve as a\nwarning system for the existence of nearby sea turtles. We focus on\nthe challenge of overcoming the low signal-to-clutter ratio (SCR)\ncaused by reverberations. Assuming that, owing to low SCR, target\nreﬂections within the point cloud are received in groups, our de-\ntector searches for patterns through clustering to identify possible\n“blobs” in the point cloud of reﬂections, and to classify them as\neither clutter or a target. Our unsupervised clustering is based\non geometrical and spectral constraints over the blob’s member\nrelations. In turn, the classiﬁcation of identiﬁed blobs as either a\ntarget or clutter is based on features extracted from the reﬂection\npattern. To this end, assuming that reﬂections from a sea turtle are\nstable but include spectral diversity due to distortions within the\nturtle’s body, we quantify the stability of the blob’s members and\nthe entropy of their reﬂection spectrum. We test our detector in\nboth the modeled simulations, and at sea, for the detection of sea\nturtles released after rehabilitation. The results show robustness to\nhighly ﬂuctuating target intensity and ability to detect at low SCR.",
+        "index_terms": [
+            "Active sonar",
+            "clustering",
+            "detection of sea turtles,  pattern recognition",
+            "point cloud processing",
+            "spectral diversity"
+        ]
+    },
+    {
+        "title": "Source Exploration for an Under-Actuated System: A Control-Theoretic Paradigm",
+        "authors": [
+            "Xiangyuan Jiang",
+            "Shuai Li",
+            "Senior Member",
+            "IEEE",
+            "Bing Luo",
+            "Qinghao Meng",
+            "Member",
+            "IEEE"
+        ],
+        "abstract": "The task of seeking an unknown source with the\nmeasurements of the emitted signal strength is named as the\nsource-exploration problem, whose challenging issues with con-\nducting autonomous source-exploration are the lack of a pr i or i\nknowledge about the distribution of the emitted signal and the\npresence of unignorable noise in both the propagation situation\nand equipped sensor readings. This paper presents a planner\nfor an autonomous robot engaged in seeking for an odor source.\nThe guidance strategy for the planner is based on a control-\ntheoretic paradigm which incorporates an optimization technique\ninto the structure. The control law is inspired by two prominent\nbehaviors widely observed in biology, namely, chemotaxis and\nanemotaxis. The two behaviors are formulated in the control\ndevelopment. The derived control law is rigorously analyzed and\nguarantees the converge of a nonlinear under-actuated robot\nto reach the unknown source, which provides a case study on\nusing run-time optimization to guide rigorous control algorithm\ndevelopment. Besides theoretical proof, our results are also\nvalidated in numerical simulations and physical experiments.",
+        "index_terms": [
+            "Optimization algorithm",
+            "source exploration,  under-actuated systems"
+        ]
+    },
+    {
+        "title": "Statistical Evaluation of Sentinel-3 OLCI Ocean Color Data Retrievals",
+        "authors": [
+            "Karlis Mikelsons",
+            "Menghua Wang",
+            "Ewa Kwiatkowska",
+            "Lide Jiang",
+            "David Dessailly",
+            "Juan Ignacio Gossn"
+        ],
+        "abstract": "We\n\nemploy a previously developed statistical\nmethod to evaluate the performance of the Sentinel-3 Ocean\nand Land Colour Instrument (OLCI) global ocean color data\nrelying on the temporal stability of the retrievals. We analyze\nthe normalized water-leaving reﬂectance ρwN(λ) spectra gener-\nated by the National Oceanic and Atmospheric Administration\n(NOAA) Multi-Sensor Level-1 to Level-2 (MSL12) ocean color\ndata processing system from the OLCI measurements and the\nEuropean Organization for the Exploitation of Meteorological\nSatellites (EUMETSAT)-Instrument Processing Facility for OLCI\nLevel-2 (IPF-OL-2) OLCI reﬂectance ρwN(λ) spectra. The devi-\nations in ρwN(λ) spectra from temporally and spatially averaged\nbaseline data are statistically evaluated corresponding to various\nparameters, including the solar-sensor geometry, various ancil-\nlary data (i.e., surface wind speed, sea-level atmospheric pressure,\nwater vapor amount, and ozone concentration), and other related\nparameters. Our results show that, under most conditions,\nboth NOAA-MSL12 and EUMETSAT-IPF-OL-2 data processing\nsystems produce statistically consistent ocean color products in\nthe open ocean with respect to all corresponding parameters\nanalyzed but with some underestimates of ρwN(λ) spectra by\nEUMETSAT retrievals in moderate sun glint conditions being\nthe notable exception.",
+        "index_terms": [
+            "European Organization for the Exploitation of Meteorological Satellites (EUMETSAT)",
+            "European Space Agency (ESA)",
+            "Multi-Sensor Level-1 to Level-2 (MSL12)",
+            "National Oceanic and Atmospheric Administration (NOAA)",
+            "Ocean and Land Colour Instrument (OLCI)",
+            "ocean color remote sensing, Visible Infrared Imaging Radiometer Suite (VIIRS)"
+        ]
+    },
+    {
+        "title": "Structure, Function, and Neural Control of Pectoral Fins in Fishes",
+        "authors": [
+            "Mark W. Westneat",
+            "Dean H. Thorsen",
+            "Jeffrey A. Walker",
+            "Melina E. Hale"
+        ],
+        "abstract": "Fin-based propulsion systems perform well for both\nhigh-speed cruising and high maneuverability in ﬁshes, making\nthem good models for propulsors of autonomous underwater ve-\nhicles. Labriform locomotion in ﬁshes is actuated by oscillation of\nthe paired pectoral ﬁns. Here, we present recent research on ﬁn\nstructure, ﬁn motion, and neural control in ﬁshes to outline im-\nportant future directions for this ﬁeld and to assist engineers in\nattempting biomimicry of maneuverable ﬁn-based locomotion in\nshallow surge zones. Three areas of structure and function are dis-\ncussed in this review: 1) the anatomical structure of the ﬁn blade,\nskeleton, and muscles that drive ﬁn motion; 2) the rowing and ﬂap-\nping motions that ﬁns undergo for propulsion in ﬁshes; and 3) the\nneuroanatomy, neural circuitry, and electrical muscle activity that\nare characteristic of pectoral ﬁns. Research on ﬁn biomechanics,\nmuscle physiology and neural control is important to the compar-\native biology of locomotion in ﬁshes and application of ﬁn func-\ntion for aid in aquatic vehicle design. Recommendations are made\nregarding ﬁn propulsor designs based on the ﬁn shape, activation\npattern, and motion. Research on neural control of ﬁns is a key\npiece in the puzzle for a complete understanding of comparative\nﬁn function and may provide important principles for engineers\ndesigning control systems for ﬁn-like propulsors.",
+        "index_terms": [
+            "Locomotion",
+            "neural control",
+            "pectoral ﬁn",
+            "swim-  ming"
+        ]
+    },
+    {
+        "title": "Synchronous Chlorophyll-a and Sea Surface Salinity Variability in the Equatorial Paciﬁc Ocean",
+        "authors": [
+            "Wei Shi",
+            "Menghua Wang"
+        ],
+        "abstract": "Using chlorophyll-a (Chl-a) concentration data de-\nrived from the Visible Infrared Imaging Radiometer Suite onboard\nthe Suomi National Polar-orbiting Partnership, the in situ measure-\nments from the tropical ocean atmosphere moorings, and the sea\nsurface salinity (SSS) data from the Soil Moisture Active Passive\nmission and Aquarius satellite, we report synchronous Chl-a and\nSSS variability in the Equatorial Paciﬁc Ocean on the daily and\nmonthly bases. During the El Niño event in 2015, a decrease in\nChl-a and SSS occurred and developed within the same time-\nframe, and possessed similar spatial patterns across the Equatorial\nPaciﬁc Ocean. Enhanced Chl-a and SSS coincided and colocated\n(in timing, location, spatial coverage, and extent) during the La\nNiña event in 2020. In contrast, sea surface temperature variability\ndid not relate to Chl-a and SSS variability across the Equatorial\nPaciﬁc Ocean. Chl-a and SSS were found to covary on the daily\nbasis driven by the tropical instability waves. The mechanism that\ncaused the synchronous Chl-a and SSS variability in the Equatorial\nPaciﬁc Ocean on both the daily and monthly bases is addressed and\ndiscussed.",
+        "index_terms": [
+            "Biological activity",
+            "chlorophyll-a variability",
+            "El Niño Southern Oscillation (ENSO)",
+            "Equatorial Paciﬁc Ocean",
+            "sea surface salinity (SSS)",
+            "sea surface temperature (SST)",
+            "tropical atmosphere ocean (TAO)"
+        ]
+    },
+    {
+        "title": "Synthesis of Axinyssa digitata Extract Directed Hybrid Nanoﬂower and Investigation of Its Antimicrobial Activity",
+        "authors": [
+            "Baris Karsli",
+            "Ibrahim Seyda Uras",
+            "Belma Konuklugil",
+            "Ayse Demirbas"
+        ],
+        "abstract": "First time in this study, the antibacterial effects\nof Axinyssadigitatasponge extracts and Axinyssadigitata-\nbased cupper hybrid nanoﬂowers (Cu hNFs) were evaluated.\nHerein, hybrid nanoﬂowers (Cu hNFs) were produced by\ncombining Axinyssadigitatasponge extract with Cu2+ ions\nin Phosphate-buffered saline (PBS) (at pH 7.4) at room\ntemperature for three days using green synthesis method.\nThe shape and size of hNFs were evaluated using scan-\nning electron microscope (SEM) images. Energy dispersive\nX-ray spectroscopy (EDX) mapping was used to determine\nthe presence of Cu metals and other components. X-ray\ndiffraction (XRD) is a non-destructive analysis method that\nwas used to determine of the crystallographic properties\nof materials and the phases they contain. Fourier-transform\ninfrared spectroscopy (FT-IR) peaks were used to discuss\nthe presence of functional groups that played a key role\nin the synthesis. The Cu-hNFs had antimicrobial activity\nagainst selected microorganisms. This research is expected\nto provide knowledge on hNFs synthesis and antimicrobial\nactivity application investigations using Axinyssa digitata\nrather than biomolecules obtained through costly and time-\nconsuming methods.",
+        "index_terms": [
+            "Antimicrobial activity",
+            "axinyssa digitata,  green synthesis",
+            "hybrid nanoﬂower"
+        ]
+    },
+    {
+        "title": "Theoretical Modeling and Experimental High-Speed Imaging of Elongated Vocal Folds",
+        "authors": [
+            "Yu Zhang*",
+            "Michael F. Regner",
+            "Jack J. Jiang"
+        ],
+        "abstract": "In this paper, the role of vocal fold elongation in gov-\nerning glottal movement dynamics was theoretically and experi-\nmentally investigated. A theoretical model was ﬁrst proposed to\nincorporate vocal fold elongation into the two-mass model. This\nmodel predicted the direct and nondirect components of the glottal\ntime series as a function of vocal fold elongation. Furthermore,\nhigh-speed digital imaging was applied in excised larynx exper-\niments to visualize vocal fold vibrations with variable vocal fold\nelongation from −10% to 50% and subglottal pressures of 18- and\n24-cm H2 O. Comparison between theoretical model simulations\nand experimental observations showed good agreement. A relative\nmaximum was seen in the nondirect component of glottal area, sug-\ngesting that an optimal elongation could maximize the vocal fold\nvibratory power. However, sufﬁciently large vocal fold elongations\ncaused the nondirect component to approach zero and the direct\ncomponent to approach a constant. These results showed that vocal\nfold elongation plays an important role in governing the dynam-\nics of glottal area movement and validated the applicability of the\nproposed theoretical model and high-speed imaging to investigate\nlaryngeal activity.",
+        "index_terms": [
+            "Glottal area",
+            "high-speed digital imaging",
+            "two-  mass model",
+            "vocal fold elongation"
+        ]
+    },
+    {
+        "title": "Toward the Detection and Imaging of Ocean Microplastics With a Spaceborne Radar",
+        "authors": [
+            "Madeline C. Evans",
+            "Christopher S. Ruf, Fellow, IEEE"
+        ],
+        "abstract": "Ocean microplastic concentrations are known to\nvary signiﬁcantly by location, with especially high levels in\nthe North Atlantic and North Paciﬁc gyres. Most direct mea-\nsurements come from plankton net trawling made in these\nregions; concentrations in other regions have been estimated\nby microplastic transport models that depend on large-scale\nocean circulation patterns. However, global measurements of\nmicroplastic distribution and its temporal variability are lacking.\nA new method is presented for detecting and imaging the global\ndistribution of ocean microplastics from space. The method uses\nspaceborne bistatic radar measurements of ocean surface rough-\nness and relies on an assumed reduction in responsiveness to\nwind-driven roughening caused by surfactants that act as tracers\nfor microplastics near the surface. Annual mean microplastic\ndistributions estimated by the radars are generally consistent\nwith model predictions. The spaceborne observations are also\nable to detect temporal changes that are not resolved by the\nmodels. For example, seasonal dependencies are observed at mid-\nlatitudes in both Northern and Southern Hemispheres, with lower\nconcentrations noted in the winter months. Time lapse images\nat ﬁner spatial and temporal scales reveal episodic bursts of\nmicroplastic tracers in the outﬂow from major river discharges\ninto the sea. This new method will provide better monitoring of\nocean microplastics and will support future model development\nand validation.",
+        "index_terms": [
+            "GNSS data",
+            "miscellaneous applications",
+            "oceans  and water"
+        ]
+    },
+    {
+        "title": "Tracking Large Marine Predators in Three Dimensions: The Real-Time Acoustic Tracking System",
+        "authors": [
+            "Associate Editor: J. R. Buck."
+        ],
+        "abstract": "Large marine predators like sharks and whales\ncan have a substantial\ninﬂuence on oceanic ecosystems, and\ncharacterizing their interactions with the physical and biological\nenvironment is an important goal in marine ecology. Studies\nof foraging ecology are of particular importance, but sampling\nprey aggregations encountered by these predators is extremely\ndifﬁcult because of the small spatial scales over which prey\naggregations often occur (meters to hundreds of meters). We\ndeveloped the real-time acoustic tracking system (RATS) to allow\nlarge marine predators to be accurately tracked over these small\nspatial scales to facilitate proximate environmental sampling.\nThe system consists of an array of four free-ﬂoating buoys\ncapable of detecting 36-kHz pings emitted by an animal-borne\nacoustic transmitter. Upon detection, the buoys transmit their\nposition and the arrival time of the ping via a radio modem to a\ncomputer on board a nearby ship, and a software program uses\ndifferences in arrival times from all of the buoys to estimate the\nlocation of the tagged animal. The positions of the tagged animal,\nbuoys, ship, and support boats can be monitored via a graphical\nuser interface to allow proximate environmental sampling and\nmaintenance of the array around the tagged animal. In situ\ntests indicate that average positional accuracies for a transmitter\ninside either a four- or three-buoy array (buoys spaced 1–1.75\nkm apart) are less than 10 m, and that accuracies remain near\n10 m for transmitters located up to 500 m away from the edge\nof the array. The buoys can consistently detect the transmitter\nup to 1000 m away, but detection rates decrease between 1000\nand 2000 m; no detections were obtained beyond 2300 m. Field\ndeployments of the system have demonstrated an unprecedented\nability to monitor the movements of baleen whales in real time,\nallowing a suite of prey and oceanographic observations to be\ncollected within meters to tens of meters of a tagged animal.",
+        "index_terms": [
+            "Ecology",
+            "localization",
+            "tags",
+            "tracking",
+            "whale"
+        ]
+    },
+    {
+        "title": "Trends in Biorobotic Autonomous Undersea Vehicles",
+        "authors": [
+            "Promode R. Bandyopadhyay"
+        ],
+        "abstract": "The emergence of biorobotic autonomous undersea\nvehicle (AUV) as a focus for discipline-integrated research in the\ncontext of underwater propulsion and maneuvering is considered\nwithin the conﬁnes of the Biorobotics Program in the Ofﬁce of\nNaval Research. The signiﬁcant advances in three disciplines,\nnamely the biology-inspired high-lift unsteady hydrodynamics,\nartiﬁcial muscle technology and neuroscience-based control, are\ndiscussed in an effort to integrate them into viable products. The\nunderstanding of the mechanisms of delayed stall, molecular\ndesign of artiﬁcial muscles and the neural approaches to the\nactuation of control surfaces is reviewed in the context of devices\nbased on the pectoral ﬁns of ﬁsh, while remaining focused on their\nintegrated implementation in biorobotic AUVs. A mechanistic\nunderstanding of the balance between cruising and maneuvering\nin swimming animals and undersea vehicles is given. All aquatic\nplatforms, in both nature and engineering, except during short\nduration burst speeds that are observed in a few species, appear\nto lie within the condition where their natural period of oscillation\nequals the time taken by them to travel the distance of their\nown lengths. Progress in the development of small underwater\nexperimental biorobotic vehicles is considered where the three\naforementioned disciplines are integrated into one novel maneu-\nvering device or propulsor. The potential in maneuvering and\nsilencing is discussed.",
+        "index_terms": [
+            "Artiﬁcial muscles",
+            "autonomous undersea vehicles (AUVs)",
+            "biorobotics",
+            "ﬁsh biology",
+            "high-lift",
+            "hydrodynamics",
+            "in- ternal Froude number",
+            "maneuvering",
+            "neuroscience-based control, pectoral ﬁns",
+            "polymers"
+        ]
+    },
+    {
+        "title": "U-Net Super-Resolution Model of GOCI to GOCI-II Image Conversion",
+        "authors": [
+            "Jisun Shin",
+            "Member",
+            "IEEE",
+            "Young-Heon Jo",
+            "Boo-Keun Khim",
+            "Soo Mee Kim",
+            "Member",
+            "IEEE"
+        ],
+        "abstract": "The use of ocean color sensors presents limitations\nto monitoring coastal environmental changes and capturing fine\nspatial features below 1 km due to low spatial (0.5–1 km)\nand temporal (1 day) resolutions. The geostationary ocean color\nimager (GOCI)-II, launched on February 18, 2020, is a follow-\nup mission to GOCI, operated from June 27, 2010 to March 31,\n2021. GOCI-II imagery, with a spatial resolution of 250 m, detects\nmore detailed spatial structures of ocean dynamics compared\nto GOCI with a spatial resolution of 500 m. This study aims\nto develop a U-Net super-resolution (SR) model to enhance\nthe GOCI remote-sensing reflectance (Rrs) imagery to the same\nspatial resolution as GOCI-II. The U-Net model is trained with\neight paired bands (412, 443, 490, 555, 660, 680, 745, and\n865 nm) of GOCI and GOCI-II Rrs around the waters of the\nKorean Peninsula. The consistency level between GOCI and\nGOCI-II images indicated GOCI sensor degradation, especially\nin the blue bands, during its last mission period from December\n2020 to March 2021. Through quantitative and qualitative\nevaluations, we found that the U-Net Rrs\nimage had greater\nspectral information with higher consistency compared to the G1-\nbicubic image by bicubic interpolation of GOCI. In particular,\nthe U-Net results improved the consistency in the blue bands (412,\n443, and 490 nm). Qualitative evaluations also showed that U-Net\ncorrected the blue band underestimation in degraded GOCI\nimages. In addition, chlorophyll-a concentration (CHL) map from\nthe U-Net Rrs not only simulated spatial patterns, similar to\nGOCI-II CHL map, but also corrected the overestimated GOCI\nCHL map. The U-Net SR model may help to produce more\nreliable and fine-scale Rrs products from GOCI similar to those\nof GOCI-II, and to enable long-term ocean color monitoring\naround the waters of the Korean Peninsula.",
+        "index_terms": [
+            "Deep U-Net  super-resolution (SR) model,  geostationary ocean color imager (GOCI)",
+            "GOCI-II"
+        ]
+    },
+    {
+        "title": "Underwater Hyperspectral Imaging Using a Stationary Platform in the Trans-Atlantic Geotraverse Hydrothermal Field",
+        "authors": [
+            "Ines Dumke",
+            "Martin Ludvigsen",
+            "Steinar L. Ellefmo",
+            "Fredrik Søreide",
+            "Geir Johnsen",
+            "Bramley J. Murton"
+        ],
+        "abstract": "Underwater hyperspectral imaging is a relatively\nnew method for characterizing seaﬂoor composition. To date,\nit has been deployed from moving underwater vehicles, such as\nremotely operated vehicles and autonomous underwater vehicles.\nWhile moving vehicles allow relatively rapid surveying of several\n10–1000 m2, they are subjected to short-term variations in\nvehicle attitude that often compromise image acquisition and\nquality. In this study, we tested a stationary platform that was\nlanded on the seabed and used an underwater hyperspectral\nimager (UHI) on a vertical swinging bracket. The imaged seaﬂoor\nareas have dimensions of 2.3 m × 1 m and are characterized\nby very stable UHI data of high spatial resolution. The study\narea was the Trans-Atlantic Geotraverse hydrothermal ﬁeld at\nthe Mid-Atlantic Ridge (26° N) in water depths of 3530–3660 m.\nUHI data were acquired a 12 stations on an active and an inactive\nhydrothermal sulﬁde mound. Based on supervised classiﬁcation,\n24 spectrally different seaﬂoor materials were detected, includ-\ning hydrothermal and non-hydrothermal materials, and benthic\nfauna. The results show that the UHI data are able to spectrally\ndistinguish different types of surface materials and benthic fauna\nin hydrothermal areas, and may therefore represent a promising\ntool for high-resolution seaﬂoor exploration in potential future\ndeep-sea mining areas.",
+        "index_terms": [
+            "Image classiﬁcation",
+            "remote sensing,  spec-  troscopy",
+            "terrain mapping",
+            "underwater object detection"
+        ]
+    },
+    {
+        "title": "Unique Structure and Function of Chloride Transporting CLC Proteins",
+        "authors": [
+            "Michael Pusch",
+            "Thomas J. Jentsch"
+        ],
+        "abstract": "CLC proteins are a large structurally deﬁned family\nantiporters with nine distinct\nof Cl\ngenes in mammals. The membrane-embedded part of CLC pro-\nteins bears no obvious similarity to any other class of membrane\nproteins, while the cytoplasmic C-terminus of most eukaryotic\nand some prokaryotic CLCs contains two regions with homology\nto cystathionine beta synthase (CBS) domains that are found in\nother proteins as well. Different members serve a broad range\nof physiological roles, including stabilization of the membrane\npotential, transepithelial ion transport, and vesicular acidiﬁcation.\nTheir physiological importance is underscored by the causative\ninvolvement in at least four different human genetic diseases.\n\nFrom functional studies of the Torpedo homologue ClC-0, a ho-\nmodimeric architecture with two physically separate ion conduc-\ntion pathways was anticipated and fully conﬁrmed by solving the\ncrystal structure of prokaryotic CLC homologues. The structure\nrevealed a complex fold of 18 -helices per subunit with at least two\nCl\nions bound in the center of each protopore. A critical glutamic\nacid residue was identiﬁed whose side-chain seems to occupy a\nion binding site in the closed state and that moves away to\nthird Cl\nallow Cl binding. While the overall architecture and pore struc-\nture is certainly conserved from bacteria to humans, the bacterial\nproteins that were crystallized are actually not Cl\nion channels,\nbut coupled H+ Cl antiporters. These recent breakthroughs will\nallow us to study in further detail the structure, function, and the\nphysiological and pathophysiological role of CLC proteins.",
+        "index_terms": [
+            "Channelopathy",
+            "gating",
+            "ion channel",
+            "permeation"
+        ]
+    },
+    {
+        "title": "Using Heterogeneous Wireless Sensor Networks in a Telemonitoring System for Healthcare",
+        "authors": [
+            "Juan M. Corchado",
+            "Javier Bajo",
+            "Dante I. Tapia",
+            "Ajith Abraham"
+        ],
+        "abstract": "Ambient intelligence has acquired great importance\nin recent years and requires the development of new innovative\nsolutions. This paper presents a distributed telemonitoring system,\naimed at improving healthcare and assistance to dependent people\nat their homes. The system implements a service-oriented architec-\nture based platform, which allows heterogeneous wireless sensor\nnetworks to communicate in a distributed way independent of time\nand location restrictions. This approach provides the system with\na higher ability to recover from errors and a better ﬂexibility to\nchange their behavior at execution time. Preliminary results are\npresented in this paper.",
+        "index_terms": [
+            "Ambient intelligence (AmI)",
+            "healthcare",
+            "services- oriented architectures (SOAs)",
+            "wireless sensors networks (WSNs)"
+        ]
+    },
+    {
+        "title": "Validation of Sea Surface Temperature Derived From Himawari-8 by JAXA",
+        "authors": [
+            "Qianguang Tu",
+            "Zengzhou Hao"
+        ],
+        "abstract": "Hourly sea surface temperature (SST) retrieved\nfrom Himawari-8 by the Japan Aerospace Exploration Agency\n(H8-SST/JAXA, latest version 1.2) is becoming an important data\nsource for data merging as well as for resolving diurnal vari-\nation (DV). However, the spatial and temporal variation of the\nerrors for the full disk is still unclear. In this article, two years of\nH8-SSTs/JAXA are validated against in situ measurements from\niQuam2. In general, H8-SSTs/JAXA shows small biases between\n−0.11 and −0.03 K with root mean square error (RMSE) between\n0.58 and 0.73 K. The spatial distributions of the errors reveal the\nfollowing patterns: 1) a small median bias close to 0.1 K and RMSE\nof 0.4–0.6 K comparing to drifters are found at satellite zenith angle\n(SZA) 0°–35°; 2) negative biases (∼−0.3 K) are detected at SZA\ns 35°–58°; and 3) larger positive biases exceeding 0.3 K are also\nfound along the viewing boundaries. The temporal variations of\nthe errors show that 1) there is no prominent seasonal variation;\n2) the amplitude of the DV of the errors is only ∼0.1 K for the\nstatistical of all matchups, and 3) the maximum errors appears in\nthe morning rather than in the noon. The statistics will be used in\nfuture work for DV analysis and merging purposes.",
+        "index_terms": [
+            "Errors",
+            "Himawari-8",
+            "sea surface temperature  (SST)",
+            "spatial variation",
+            "temporal variation",
+            "validation"
+        ]
+    },
+    {
+        "title": "Wind Speed Estimation Using Acoustic Underwater Glider in a Near-Shore Marine Environment",
+        "authors": [
+            "Dorian Cazau",
+            "Julien Bonnel",
+            "Member",
+            "IEEE",
+            "Mark Baumgartner"
+        ],
+        "abstract": "This paper investigates the use of an acoustic glider\nto perform acoustical meteorology. This discipline consists of\nanalyzing ocean ambient noise to infer above-surface meteoro-\nlogical conditions. The paper focuses on wind speed estimation,\nin a near-shore marine environment. In such a shallow water\ncontext, the ambient noise ﬁeld is complex, with site-dependent\nfactors and a variety of nonweather concurrent acoustic sources.\nA conversion relationship between sound pressure level and wind\nspeed is proposed, taking the form of an outlier-robust nonlinear\nregression model learned with in situ data. This method is suc-\ncessfully applied to experimental data collected in Massachusetts\nBay (MA, USA) during four glider surveys. An average error\nin wind speed estimation of 1.3 m · s−1 (i.e., average relative\nerror of 14%) over wind speed values up to 17 m · s−1 is\nreported with this method, which outperformed results obtained\nwith relationships from the literature. Quantitative results are\nalso detailed on the dependence of wind speed error estimation\non the environment characteristics, and on the classiﬁcation\nperformance of observations contaminated by acoustic sources\nother than wind. Passive acoustic-based weather systems are a\npromising solution to provide long-term in situ weather data\nwith ﬁne time and spatial resolutions. These data are crucial for\nsatellite calibration and assimilation in meteorological models.\nFrom a broader perspective, this paper is the ﬁrst step toward\nan operationalization of acoustic weather systems and their on-\nboard embedding in underwater monitoring platforms such as\ngliders.",
+        "index_terms": [
+            "Acoustical meteorology",
+            "coastal glider",
+            "outlier-  robust regression model"
+        ]
+    }
+]
